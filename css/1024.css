@@ -1,0 +1,1376 @@
+a
+{
+    font-size: 90%;
+}
+.sec1
+{
+    /* background-color: black; */
+    height: 9vh;
+}
+header
+{
+    height: 9vh; 
+}
+.logoavone
+{
+    /* background-color: blueviolet; */
+    height: 8vh;
+}
+.logoavone > .smavone
+{
+    font-size: x-large;
+}
+
+
+.iconify
+{
+    margin: 0 0 -6% 0;
+}
+
+.iconify2, .iconify3
+{
+    margin: 0 0 -30% 0;
+}
+
+.nav1
+{
+    width: 45%;
+}
+
+
+.nav2
+{
+    height: 8vh;
+}
+.endicon
+{
+    width: 27%;
+    height: 4.5vh;
+}
+
+
+
+
+
+
+.sec2
+{
+    height: 132vh;
+}
+
+.midsection 
+{
+    height: 65vh;
+}
+
+.left, .right
+{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 65vh;
+}
+
+.left .lefttext, .right .righttext
+{
+    width: 60%;
+    height: 9vh;
+}
+
+
+h3
+{
+    font-size: 100%;
+}
+h5
+{
+    font-size: 90%;
+}
+
+.othersection 
+{
+    height: 68vh;
+}
+
+.secondleft, .secondright, .srright
+{
+    height: inherit;
+}
+
+.secondleft .slrighttext, .sr1top .srrighttext, .sr1bottom .srrighttext, .srright .srrighttext
+{
+    height: 7.5vh;
+}
+
+.sec3
+{
+    height: 155vh;
+}
+
+.sec4 
+{
+    height: 123vh;
+}
+
+#tp1
+{
+    top: 26.4%;
+}
+#tp2
+{
+    top: 12.9%;
+}
+#tp3
+{
+    top: 25.1%;
+}
+#tp4
+{
+    top: 31%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* NEWS  */
+.sec2news
+{
+    height: 310vh;
+    /* background-color: aqua; */
+}
+.randomdiv
+{
+    height: 5vh;
+}
+.homnewspace
+{
+    /* background-color: grey; */
+    width: 97%;
+}
+.homnewspace > h3
+{
+    font-size: 95%;
+}
+.homnewspace > h4
+{
+    margin-right: 0.5%;
+}
+.newspace
+{
+    height: 11vh;
+}
+.midsectionnews
+{
+    height: 290vh;
+    /* justify-content: space-between; */
+}
+.sma
+{
+    width: 26%;
+    /* background-color: aliceblue; */
+}
+.smallaside
+{
+    align-items: left;
+    width: 99%;
+    /* background-color: brown; */
+}
+.textxx
+{
+    /* background-color: blue; */
+    width: 100%;
+}
+.textxx > h3
+{
+    font-size: 90%;
+    text-align: left;
+    margin-left: 4%;
+}
+
+.smallpicdiv
+{
+    width: 100%;
+    height: 13.3vh;
+}
+.smallpicdiv > img
+{
+    height: 10vh;
+    width: 28%;
+}
+.smallpictext
+{
+    width: 59%;
+    /* background-color: antiquewhite; */
+    height: 8vh;
+    line-height: 10px;
+}   
+.smallpictext > a
+{
+    font-size: 88%;
+    line-height: 16px;
+}
+.smallpictext > h3
+{
+    width: 100%;
+    font-size: 85%;
+    line-height: 25px;
+}
+.smallpicdiva_, .smallpicdivb_
+{
+    width: 90%;
+    height: 16vh;
+    /* background-color: red; */
+    margin-left: -1%;
+}
+
+
+.bia
+{
+    height: inherit;
+    width: 74%;
+    /* OR height: 285vh; */
+    /* background-color: blueviolet; */
+}
+.bigaside
+{
+    width: 98%;
+    height: 230vh;
+    /* background-color: antiquewhite; */
+}
+
+.bigpicdiv > img
+{
+    height: 55vh;
+}
+button
+{
+    width: 17%;
+    height: 5vh;
+    font-size: 75%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.menuopen
+{
+    width: 20%;
+    height: 100vh;
+    /* background-color: rosybrown; */
+    margin: 0;
+    padding: 0;
+}
+
+.menubarHolder 
+{
+    background-color: aliceblue;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menubar
+{
+    width: 95%;
+    height: inherit;
+    /* background-color: antiquewhite; */
+}
+
+.menulist
+{
+    height: 50vh;
+}
+.menulist > .list > .submenu 
+{
+    height: 0vh;
+}
+.menulist, .submenu 
+{
+    line-height: 8vh;
+    padding: 0;
+}
+.menulist > li, .submenu > li
+{
+    border: 1px solid gray;
+    list-style-type: none;
+}
+
+.submenu > li
+{
+    margin-left: 20%;
+    line-height: 4vh;
+    background-color: antiquewhite;
+    /* display: none; */
+}
+.menulist >li:hover
+{
+    background-color: rgb(74, 48, 192);
+}
+
+.submenu
+{
+    display: none;
+}
+
+.menulist > .list:hover > .submenu
+{
+    display: block;
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+.iconify
+{
+    font-size: large;
+    margin: 0 3% -6% 3%;
+}
+.iconifyy
+{
+    margin-left: 30%;
+    margin-bottom: -1%;
+}
+.iconifyx
+{
+    margin-bottom: -1%;
+}
+
+
+
+
+
+
+
+@media screen and (max-width:1024px) and (max-height:600px)
+{
+    .newspace
+    {
+        height: 15vh;
+    }
+    .sma
+    {
+        height: 120vh;
+    }
+    .smallaside
+    {
+        height: inherit;
+        /* background-color: aliceblue; */
+    }
+    .smallpicdiv
+    {
+        height: 16vh;
+    }
+    .smallpicdiv > img
+    {
+        height: 12vh;
+    }
+    .smallpicdiva_, .smallpicdivb_
+    {
+        height: 18vh;
+        /* background-color: red; */
+    }
+    .bigpicdiv > img
+    {
+        height: 68.5vh;
+    }
+}
+
+
+
+@media screen and (max-width:1008px)
+{
+    .sec2
+    {
+        height: 130vh;
+    }
+
+    .midsection
+    {
+        height: 65vh;
+    }
+
+    .left, .right
+    {
+        height: 65vh;
+    }
+
+    .othersection
+    {
+        height: 65vh;
+    }
+
+    .secondleft, .secondright, .srright
+    {
+        height: 65vh;
+    }
+
+    .sr1top, .sr1bottom
+    {
+        height: fit-content;
+    }
+
+    .sec3
+    {
+        height: 154vh;
+    }
+
+    .sec4
+    {
+        height: 118vh;
+    }
+
+
+
+
+    .sec2news
+    {
+        height: 330vh; 
+    }
+    .newspace
+    {
+        width: 100%;
+        height: 11vh;
+    }
+    .smallpicdiv
+    {
+        width: 100%;
+        /* background-color: green; */
+        height: 13vh;
+    }
+    .smallpicdiv > img
+    {
+        height: 9.5vh;
+    }
+    .smallpicdiva_, .smallpicdivb_
+    {
+        width: 85%;
+        margin-left: -5%;
+    }
+    .smallpicdiva_
+    {
+        margin-bottom: -5%;
+        margin-top: -5%;
+    }
+    .smallpicdivb_
+    {
+        margin-top: -10%; 
+    }
+    .smallpicdivb_ > h3
+    {
+        font-size: 102%;
+    }
+    .midsectionnews
+    {
+        height: 300vh;
+    }
+    .bigaside
+    {
+        height: 100vh;
+        width: 99%;
+        /* background-color: antiquewhite; */
+    }
+    .bigpicdiv > img
+    {
+        height: 52vh;
+        width: 98.5%;
+    }
+    .bigpicdiv > h3
+    {
+        font-size: 88%;
+        margin-right: 2.5%;
+    }
+    .bigpicdate > h3, .bigpicdate_ > h3
+    {
+        font-size: 78%;
+        margin-bottom: 2%;
+    }
+    .bigpicdate > a, .bigpicdate_ > a
+    {
+        margin-top: 3%;
+    }
+}
+
+
+@media screen and (max-width:992px)
+{
+    .sec2
+    {
+        height: 130vh;
+    }
+
+    .midsection
+    {
+        height: 65vh;
+    }
+
+    .left, .right
+    {
+        height: 65vh;
+    }
+
+    .othersection
+    {
+        height: 65vh;
+    }
+
+    .secondleft, .secondright, .srright
+    {
+        height: 65vh;
+    }
+
+    .secondleft .slrighttext, .sr1top .srrighttext, .sr1bottom .srrighttext, .srright .srrighttext
+    {
+        height: 7vh;
+    }
+
+    .sec3
+    {
+        height: 155vh;
+    }
+
+    h3 
+    {
+        font-size: 120%;
+    }
+
+    h5 
+    {
+        font-size: 105%;
+    }
+
+    .sec4
+    {
+        height: 120vh;
+    }
+
+    #tp1
+    {
+        top: 26.2%;
+    }
+    #tp2
+    {
+        top: 12.5%;
+    }
+    #tp3
+    {
+        top: 24.9%;
+    }
+    #tp4
+    {
+        top: 30.8%;
+    }
+
+
+
+    .smallpicdiv
+    {
+        height: 12.5vh;
+    }
+    .smallpicdiv > img
+    {
+        height: 9vh;
+    }
+    .smallpicdiva_
+    {
+        margin-bottom: -5%;
+        margin-top: -5%;
+    }
+    .smallpicdivb_
+    {
+        margin-top: -10%; 
+    }
+
+    .bigaside
+    {
+        height: 100vh;
+        width: 100%;
+        /* background-color: antiquewhite; */
+    }
+    .bigpicdiv > img
+    {
+        height: 51.5vh;
+        width: 98%;
+    }
+    .bigpicdiv > h3
+    {
+        margin-right: 3.5%;
+    }
+    .bigpicdate > h3, .bigpicdate_ > h3
+    {
+        margin-bottom: 2%;
+    }
+}
+
+@media screen and (max-width:960px)
+{
+    .sec2
+    {
+        height: 124vh;
+    }
+
+    .midsection
+    {
+        height: 61vh;
+    }
+
+    .left, .right
+    {
+        height: 61vh;
+    }
+
+    .othersection
+    {
+        height: 63vh;
+    }
+
+    .secondleft, .secondright, .srright
+    {
+        height: 63vh;
+    }
+
+    .secondleft .slrighttext, .sr1top .srrighttext, .sr1bottom .srrighttext, .srright .srrighttext
+    {
+        height: 6.5vh;
+    }
+
+    h3 
+    {
+        font-size: 120%;
+    }
+
+    h5 
+    {
+        font-size: 105%;
+    }
+
+    .sec3
+    {
+        height: 148vh;
+    }
+
+    .sec4
+    {
+        height: 120vh;
+    }
+
+    .sec4 > button 
+    {
+        height: 5.5vh;
+        width: 12%;
+        font-size: 90%;
+    }
+
+    #tp1
+    {
+        top: 26.1%;
+    }
+    #tp2
+    {
+        top: 12.5%;
+    }
+    #tp3
+    {
+        top: 24.7%;
+    }
+    #tp4
+    {
+        top: 30.8%;
+    }
+
+
+    .smallpicdiv > img
+    {
+        height: 8.8vh;
+    }
+
+    .bigpicdiv > img
+    {
+        height: 50vh;
+        width: 98%;
+    }
+}
+
+@media screen and (max-width:928px)
+{
+    .sec2
+    {
+        height: 122vh;
+    }
+
+    .midsection
+    {
+        height: 61vh;
+    }
+
+    .left, .right
+    {
+        height: 61vh;
+    }
+
+    .othersection
+    {
+        height: 61vh;
+    }
+
+    .secondleft, .secondright, .srright
+    {
+        height: 61vh;
+    }
+
+    .secondleft .slrighttext, .sr1top .srrighttext, .sr1bottom .srrighttext, .srright .srrighttext
+    {
+        height: 6.5vh;
+    }
+
+    .sec3
+    {
+        height: 143vh;
+    }
+
+    .sec4
+    {
+        height: 120vh;
+    }
+
+    #tp1
+    {
+        top: 25.8%;
+    }
+    #tp2
+    {
+        top: 12.2%;
+    }
+    #tp3
+    {
+        top: 24.4%;
+    }
+    #tp4
+    {
+        top: 30.5%;
+    }
+
+    .sec4 > button 
+    {
+        height: 5.5vh;
+        width: 16%;
+        font-size: 100%;
+    }
+    
+
+    .smallpicdiv > img
+    {
+        height: 8.8vh;
+    }
+
+    .bigpicdiv > img
+    {
+        height: 50vh;
+        width: 98%;
+    }
+}
+
+@media screen and (max-width:896px)
+{
+    .left > img, .right > img
+    {
+        width: 100%;
+        height: 100%;
+        max-height: fit-content;
+        object-fit: contain;
+    }
+
+    .sec2
+    {
+        height: 114vh;
+    }
+
+    .midsection
+    {
+        height: 56vh;
+    }
+
+    .left, .right
+    {
+        height: 58vh;
+    }
+
+    .othersection
+    {
+        height: 58vh;
+    }
+
+    .secondleft, .secondright, .srright
+    {
+        height: 58vh;
+    }
+
+    .secondleft .slrighttext, .sr1top .srrighttext, .sr1bottom .srrighttext, .srright .srrighttext
+    {
+        height: 6.5vh;
+    }
+
+    .sec3
+    {
+        height: 138vh;
+    }
+
+    .sec4
+    {
+        height: 118vh;
+    }
+
+    #tp1
+    {
+        top: 25.6%;
+    }
+    #tp2
+    {
+        top: 12%;
+    }
+    #tp3
+    {
+        top: 24.1%;
+    }
+    #tp4
+    {
+        top: 30.2%;
+    }
+
+
+
+
+    .smallaside
+    {
+        width: 98%;
+    }
+    .smallpicdiv
+    {
+        width: 94%;
+    }
+    .smallpictext
+    {
+        margin-left: 5%;
+    }
+    .smallpicdiv > img
+    {
+        height: 8.3vh;
+        width: 30%;
+    }
+    .smallpicdiva_, .smallpicdivb_
+    {
+        width: 88%;
+        margin-left: -5%;
+    }
+
+    .bigpicdiv > img
+    {
+        height: 45.5vh;
+        width: 98%;
+    }
+    .bigpicdiv > h3
+    {
+        margin-right: 5%;
+    }
+    .bigpicdate > h3, .bigpicdate_ > h3
+    {
+        margin-bottom: 2%;
+    }
+}
+
+@media screen and (max-width:864px)
+{
+    .left > img, .right > img
+    {
+        height: fit-content;
+        object-fit: cover;
+    }
+    .sec2
+    {
+        height: 110vh;
+    }
+
+    .midsection
+    {
+        height: 55vh;
+    }
+
+    .left, .right
+    {
+        height: 55vh;
+    }
+
+    .othersection
+    {
+        height: 55vh;
+    }
+
+    .secondleft, .secondright, .srright
+    {
+        height: 55vh;
+    }
+
+    .secondleft .slrighttext, .sr1top .srrighttext, .sr1bottom .srrighttext, .srright .srrighttext
+    {
+        height: 6.5vh;
+    }
+
+    .sec3
+    {
+        height: 133vh;
+    }
+
+    .sec4
+    {
+        height: 120vh;
+    }
+
+    #tp1
+    {
+        top: 25.4%;
+    }
+    #tp2
+    {
+        top: 12%;
+    }
+    #tp3
+    {
+        top: 23.8%;
+    }
+    #tp4
+    {
+        top: 30.1%;
+    }
+
+    .bigpicdiv > img
+    {
+        height: 46vh;
+        width: 97.5%;
+    }
+    .bigpicdiv > h3
+    {
+        margin-right: 5%;
+    }
+}
+
+@media screen and (max-width:832px)
+{
+    .sec2
+    {
+        height: 110vh;
+    }
+
+    .midsection
+    {
+        height: 55vh;
+    }
+
+    .left, .right
+    {
+        height: 55vh;
+    }
+
+    .othersection
+    {
+        height: 55vh;
+    }
+
+    .secondleft, .secondright, .srright
+    {
+        height: 55vh;
+    }
+
+    .secondleft .slrighttext, .sr1top .srrighttext, .sr1bottom .srrighttext, .srright .srrighttext
+    {
+        height: 6.5vh;
+    }
+
+    .sec3
+    {
+        height: 133vh;
+    }
+
+    .sec4
+    {
+        height: 120vh;
+    }
+
+
+    #tp1
+    {
+        top: 25.4%;
+    }
+    #tp1 h3 
+    {
+        font-size: 150%;
+        font-weight: 700;
+    }
+    #tp2
+    {
+        top: 11.6%;
+    }
+    #tp2 > h5
+    {
+        font-size: 100%;
+        font-weight: 700;
+    }
+    #tp3
+    {
+        top: 23.7%;
+    }
+    #tp3 h4
+    {
+        font-size: 120%;
+        font-weight: 700;
+    }
+    #tp3 h5
+    {
+        font-weight: 500;
+    }
+    #tp4
+    {
+        top: 30%;
+    }
+    #tp4 h3
+    {
+        font-size: 150%;
+        font-weight: 700;
+    }
+
+
+
+    .smallpicdiv > img
+    {
+        height: 7.8vh;
+    }
+    .smallaside
+    {
+        width: 98%;
+    }
+    .smallpicdiv
+    {
+        width: 94%;
+    }
+    .smallpicdiva_
+    {
+        margin-bottom: 0%;
+    }
+    .smallpicdivb_
+    {
+        margin-top: -7%; 
+    }
+    .smallpicdivb_ > h3
+    {
+        margin-bottom: -5%;
+    }
+
+    .bigpicdiv > img
+    {
+        height: 44vh;
+        width: 97.5%;
+    }
+}
+
+
+@media screen and (max-width:800px)
+{
+
+    .sec2
+    {
+        height: 104vh;
+    }
+
+    .midsection
+    {
+        height: 52vh;
+    }
+
+    .left, .right
+    {
+        height: 52vh;
+    }
+
+    .othersection
+    {
+        height: 52vh;
+    }
+
+    .secondleft, .secondright, .srright
+    {
+        height: 52vh;
+    }
+
+    .secondleft .slrighttext, .sr1top .srrighttext, .sr1bottom .srrighttext, .srright .srrighttext
+    {
+        height: 5.5vh;
+    }
+
+    .left .lefttext, .right .righttext
+    {
+        width: 75%;
+        height: 9vh;
+        margin-left: -8%;
+    }
+    h3
+    {
+        font-size: 135%;
+    }
+    h5
+    {
+        font-size: 120%;
+    }
+    .sec3
+    {
+        height: 133vh;
+    }
+
+    .sec4
+    {
+        height: 120vh;
+    }
+
+
+    #tp1
+    {
+        top: 25.8%;
+        height: 7vh;
+    }
+    #tp1 h3 
+    {
+        font-size: 140%;
+        font-weight: 700;
+    }
+    #tp2
+    {
+        top: 11.5%;
+    }
+    #tp2 > h5
+    {
+        font-size: 95%;
+        font-weight: 700;
+    }
+    #tp3
+    {
+        top: 23.4%;
+    }
+    #tp3 h4
+    {
+        font-size: 120%;
+        font-weight: 700;
+    }
+    #tp3 h5
+    {
+        font-weight: 500;
+        font-size: 100%;
+    }
+    #tp4
+    {
+        top: 29.8%;
+    }
+    #tp4 h3
+    {
+        font-size: 140%;
+        font-weight: 700;
+    }
+
+
+
+    .smallaside
+    {
+        width: 97%;
+    }
+    .textxx
+    {
+        width: 98%;
+        margin-bottom: -0.5%;
+        margin-top: 2%;
+    }
+    .smallpicdiv > img
+    {
+        height: 7.5vh;
+    }
+    .bigpicdiv > img
+    {
+        height: 42.5vh;
+    }
+}
+
+
+
+@media screen and (max-width:787px)
+{
+    .sec3
+    {
+        height: 124vh;
+    }
+
+    .sec4
+    {
+        height: 118vh;
+    }
+    .sec4text
+    {
+        height: 20vh;
+        margin-bottom: -10%;
+    }
+    .butthome
+    {
+        margin-bottom: 10%;
+    }
+
+    #tp1
+    {
+        top: 25.8%;
+        height: 7vh;
+    }
+    #tp1 h3 
+    {
+        font-size: 140%;
+        font-weight: 700;
+    }
+    #tp2
+    {
+        top: 11.5%;
+    }
+    #tp2 > h5
+    {
+        font-size: 95%;
+        font-weight: 700;
+    }
+    #tp3
+    {
+        top: 23.4%;
+    }
+    #tp3 h4
+    {
+        font-size: 120%;
+        font-weight: 700;
+    }
+    #tp3 h5
+    {
+        font-weight: 500;
+        font-size: 100%;
+    }
+    #tp4
+    {
+        top: 29.8%;
+    }
+    #tp4 h3
+    {
+        font-size: 140%;
+        font-weight: 700;
+    }
+}
+
+
+@media screen and (max-width: 780px)
+{
+
+    .sec2
+    {
+        height: 102vh;
+    }
+
+    .midsection
+    {
+        height: 51vh;
+    }
+
+    .left, .right
+    {
+        height: 51vh;
+    }
+
+    .othersection
+    {
+        height: 51vh;
+    }
+
+    .secondleft, .secondright, .srright
+    {
+        height: 51vh;
+    }
+
+    .secondleft .slrighttext, .sr1top .srrighttext, .sr1bottom .srrighttext, .srright .srrighttext
+    {
+        height: 5.5vh;
+    }
+
+}
+
+

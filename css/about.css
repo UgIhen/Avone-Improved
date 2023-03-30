@@ -1,0 +1,358 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    font-family:'Poppins', sans-serif;
+}
+
+
+/* @media only screen and (max-width: 766px){
+body {
+    overflow-x: hidden;
+}
+} */
+@media only screen and (max-width: 1024px){
+body {
+    position: relative;
+    left: 0;
+    transition: all .3s ease-in-out;
+}
+}
+
+
+.randomdiv
+{
+    height: 5.5vh;
+}
+.homnewspace
+{
+    width: 91.5%;
+}
+.homnewspace > h3
+{
+    font-size: 110%;
+    font-weight: 300;
+}
+.aboutatag
+{
+    font-weight: 300;
+    margin-top: 28%;
+}
+.homnewspace > h5
+{
+    font-size: 85%;
+    font-weight: bolder;
+    /* margin-top: -0.55%;
+    margin-bottom: -0.6%;
+    margin-left: 0.5%; */
+}
+
+
+
+body {
+    font-family:'Poppins', sans-serif;
+    background-color: #fff;
+    color: #333;
+    font-size: 13px;
+    line-height: 1.4;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+body, button, input, select, textarea {
+    font-family: arial;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+}
+
+.main-content{
+    display:block;
+}
+@media only screen and (max-width: 767px){
+.bredcrumbWrap {
+    margin-bottom: 20px;
+}
+}
+.bredcrumbWrap {
+    background: #f9f9f9;
+    margin: 0 0 30px;
+    padding: 10px;
+}
+.breadcrumbs {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+@media only screen and (max-width: 768px){
+    .page-width {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+.page-width{
+    margin: 0;
+    max-width: 1200px;
+}
+.breadcrumbs a:first-child, .breadcrumbs span:first-child {
+    padding-left: 0;
+}
+.breadcrumbs a, .breadcrumbs span {
+    color: #111;
+    display: inline-block;
+    padding: 0 3px 0 0;
+    margin-right: 3px;
+    font-size: 12px;
+}
+a {
+    color: #444;
+    text-decoration: none;
+    outline: none;
+    cursor: pointer;
+    /* margin-left: 100px; */
+}
+[role=button], a, button, input, label, select, textarea {
+    touch-action: manipulation;
+}
+a, img {
+    outline: 0!important;
+    border: 0;
+}
+a, a:after, a:before {
+    transition: all .3s ease-in-out;
+}
+a {
+    background-color: transparent;
+}
+.title-bold {
+    font-weight: 700;
+}
+.breadcrumbs span {
+    color: #111;
+    display: inline-block;
+    padding: 0 3px 0 0;
+    margin-right: 3px;
+    font-size: 12px;
+}
+
+@media only screen and (max-width:768px){
+    .page-width{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+.page-width{
+    margin:0;
+    max-width: 1200px;
+    /* padding-left: 15px;
+    padding-top: 15px; */
+}
+@media only screen and (max-width:768px){
+    .page-tittle{
+        margin-bottom: 15px;
+    }
+}
+.page-tittle{
+    letter-spacing: normal;
+    font-weight: 700;
+    font-size: 20px;
+    position: relative;
+    margin: 0 0 30px;
+    text-align: center;
+}
+@media only screen and (max-width:768px){
+    h1{
+        font-size: 25px;
+    }
+}
+h1 {
+    font-family: Poppins,sans-serif;
+    font-weight: 700;
+    line-height: 1.4;
+    letter-spacing: .02em;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    margin: 0 0 20px;
+}
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.top-text{
+    margin-bottom: 30px;
+    text-align:center;
+    justify-content: center;
+    text-align: center;
+}
+p:last-child{
+    margin-bottom: 0;
+}
+p{
+    margin: 0 0 15px;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    word-break: break-all;
+}
+@media only screen and (max-width: 768px){
+.about-us .feature-row {
+    margin-bottom: 0;
+}
+}
+/* .about-us .feature-row {
+    margin-bottom: 35px;
+} */
+@media only screen and (max-width: 768px){
+.feature-row {
+    flex-direction: column;
+}
+}
+.feature-row {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    -ms-flex-align: center;
+    align-items: center;
+}
+@media only screen and (max-width: 768px){
+.feature-row__item {
+    flex: 1 1 100%;
+    width: 100%;
+}
+}
+.feature-row__item {
+    flex: 0 1 50%;
+}
+.imgWrapper {
+    display: block;
+    margin: auto;
+}
+/* .img{
+    width:100%;
+    height: 171px;
+    background-image: ;
+} */
+.feature-row__image {
+    display: block;
+}
+a, img {
+    outline: 0!important;
+    border: 0;
+}
+img {
+    max-width: 100%;
+    border: 0;
+}
+@media only screen and (max-width: 768px){
+.feature-row__text {
+    order: 2;
+    padding: 20px 0;
+}
+}
+@media only screen and (max-width: 768px){
+.feature-row__item {
+    flex: 1 1 100%;
+    width: 100%;
+}
+}
+.feature-row__text {
+    padding: 20px;
+}
+.feature-row__item {
+    flex: 0 1 50%;
+}
+@media only screen and (max-width: 768px){
+.feature-row .row-text {
+    font-size: 12px;
+    /* padding: 0 15px; */
+    width: 100%;
+}
+}
+/* .left .row-text {
+    padding-left: 20px;
+} */
+.feature-row .row-text {
+    font-size: 14px;
+    width: 90%;
+    margin: 0 auto;
+}
+@media only screen and (max-width: 768px){
+    .feature-row h3 {
+    font-size: 13px;
+}
+}
+.feature-row h3 {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+@media only screen and (max-width: 768px){
+h3, .h3 {
+    font-size: 17px;
+}
+}
+h3, .h3 {
+    font-size: 20px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: Poppins,sans-serif;
+    font-weight: 700;
+    line-height: 1.4;
+    letter-spacing: .02em;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    margin: 0 0 20px;
+}
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+h4{
+    font-size: 15px;
+}
+h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.rte-setting:last-child {
+    margin-bottom: 0;
+}
+.rte:last-child {
+    margin-bottom: 0;
+}
+.rte p, .rte {
+    margin-bottom: 20px;
+}
+.rte-setting {
+    margin-bottom: 11.11111px;
+}
+
+p:last-child {
+    margin-bottom: 0;
+}
+p {
+    margin: 0 0 0px;
+}
+/* p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+} */
+

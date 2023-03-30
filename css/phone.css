@@ -1,0 +1,679 @@
+.sec1
+{
+    height: 8vh;
+}
+
+.menuopen 
+{
+    display: none;
+}
+
+header
+{
+    display: flex;
+    flex-direction: column;
+    height: 8vh;
+    align-items: left; 
+    
+}
+
+#menu 
+{
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(255, 255, 255);
+    z-index: 2;
+    cursor: pointer;
+}
+.hide 
+{
+    display: inline;
+}
+
+
+#text
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 30px;
+    color: white !important;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    list-style-type: none;
+}
+
+#text > li > a
+{
+    color: white;
+} 
+
+
+.logoavone
+{
+    width: 80%;
+    display: flex;
+    justify-content: left;
+    /* background-color: green; */
+}
+
+ion-icon
+{
+    text-align: right;
+}
+.smavone
+{
+    width: 80%;
+
+}
+.xy
+{
+    width: 20%;
+    display: block;
+}
+
+
+.logoavone > .smavone
+{
+    font-size: 160%;
+}
+
+.searchf
+{
+    width: 70%;
+    height: 7vh;
+    display: none;
+}
+
+/* .searchinp
+{
+    font-size: large;
+} */
+
+.iconify 
+{
+    font-size: 30px;
+}
+
+
+.nav2
+{
+    width: 80%;
+    display: none;
+}
+
+
+.sec2
+{
+    height: 434vh;
+}
+.midsection
+{
+    height: 124vh;
+}
+.left, .right
+{
+    height: 62vh;
+}
+
+.lefttext, .righttext
+{
+    width: 80%;
+    height: 10vh;
+    margin: 0 7% 5% 0;
+}
+h3
+{
+    font-size: 140%;
+}
+h5
+{
+    font-size: 120%;
+}
+
+.othersection
+{
+    height: 310vh;
+}
+.secondleft
+{
+    height: 60vh;
+}
+.secondright
+{
+    height: 120vh;
+    
+}
+.srright
+{
+    height: 130vh;
+}
+
+.sr1top, .sr1bottom
+{
+    height: 60vh;
+}
+
+.sec3
+{
+    height: 625vh;
+}
+.grid
+{
+    height: 625vh; 
+} 
+.sec4 
+{
+    height: 105vh;
+}
+.sec4 > button 
+{
+    margin-top: 10%;
+    width: 35%;
+    height: 7vh;
+}
+
+.zoomparent
+{
+    width: 13%;
+}
+#tp1
+{
+    top: 9.05%;
+}
+
+#zomp1
+{
+    top: -0.1%;
+    left: 4%;
+}
+#tp2
+{
+    top: 15.3%;
+}
+#zomp2
+{
+    top: 10.6%;
+    left: 4%;
+}
+#tp3
+{
+    top: 25.9%;
+}
+#zomp3
+{
+    top: 16.9%;
+    left: 4%;
+}
+#tp4
+{
+    top: 32.05%;
+}
+#zomp4
+{
+    top: 29.6%;
+    left: 4%;
+}
+#zomp5
+{
+    top: 37.3%;
+    left: 4%;
+}
+#zomp6
+{
+    top: 44.2%;
+    left: 4%;
+}
+#zomp7
+{
+    top: 50.8%;
+    left: 4%;
+}
+#zomp8
+{
+    top: 61.9%;
+    left: 4%;
+}
+#zomp9
+{
+    top: 70.9%;
+    left: 4%;
+}
+#zomp10
+{
+    top: 81.7%;
+    left: 4%;
+}
+#zomp11
+{
+    top: 90.6%;
+    left: 4%;
+}
+
+
+/* NEWS PAGE  */
+.sec2news
+{
+    height: 315vh;
+}
+.midsectionnews
+{
+    height: 300vh;
+}
+.bia
+{
+    height: 218vh;
+    margin-bottom: -5%;
+}
+.bigpicdiv
+{
+    width: 96%;
+}
+.bigpicdiv > img
+{
+    height: 34.3vh;
+}
+button
+{
+    width: 25%;
+}
+.sma
+{
+    height: 77vh;
+}
+.smallaside
+{
+    width: 87%;
+}
+.smallpicdiv
+{
+    width: 95%;
+}
+.smallpicdiv > img
+{
+    height: 14vh;
+    width: 26%;
+}
+.smallpicdiva_, .smallpicdivb_
+{
+    margin-left: -1%;
+}
+.smallpicdiva_, .smallpicdivb_
+{
+    height: 21.5vh;
+}
+
+
+   /*-----------------------------------*\
+           MEDIA QUERIS SECTION
+   \*-----------------------------------*/
+
+
+
+
+@media screen and (max-width:450px)
+{
+    
+    .sec3
+    {
+        height: 588vh;
+    }
+    .grid
+    {
+        height: 588vh; 
+    } 
+    .sec4 
+    {
+        height: 105vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .sec4 > button 
+    {
+        font-size: 100%;
+    }
+}
+
+
+
+
+
+@media screen and (max-width:375px) and (height: 538px)
+{
+    .sec2
+    {
+        height: 507vh;
+    }
+    .midsection
+    {
+        height: 132vh;
+    }
+    .left, .right
+    {
+        height: 66vh;
+    }
+    h3
+    {
+        font-size: 120%;
+    }
+    h5
+    {
+        font-size: 100%;
+    }
+
+    .othersection
+    {
+        height: 375vh;
+    }
+    .secondleft
+    {
+        height: 65vh;
+    }
+    .secondright
+    {
+        height: 140vh;
+        
+    }
+    .srright
+    {
+        height: 170vh;
+    }
+
+    .sr1top, .sr1bottom
+    {
+        height: 70vh;
+    }
+
+    .sec3
+    {
+        height: 690vh;
+    }
+    .grid
+    {
+        height: 690vh; 
+    } 
+    .sec4 
+    {
+        height: 120vh;
+    }
+    .sec4 > button 
+    {
+        margin-top: 5%;
+        width: 35%;
+        height: 7vh;
+        font-size: 80%;
+    }
+
+    .sec3text > h2, .sec4text > h2
+    {
+        font-size: 120%;
+    }
+    .sec3text > h4, .sec4text > h4
+    {
+        font-size: 90%;
+    }
+
+    .sec2news
+    {
+        height: 310vh;
+    }
+    .midsectionnews
+    {
+        height: 300vh;
+    }
+    .bia
+    {
+        height: 218vh;
+        margin-bottom: -5%;
+    }
+    .bigpicdiv
+    {
+        width: 95%;
+    }
+    .bigpicdiv > img
+    {
+        height: 26vh;
+    }
+    .bigpicdiv > h3
+    {
+        font-size: 89%;
+    }
+    button
+    {
+        width: 34%;
+    }
+    .sma
+    {
+        height: 82vh;
+    }
+    .smallaside
+    {
+        width: 96%;
+    }
+    .smallpicdiv > img
+    {
+        height: 13vh;
+        width: 28%;
+    }
+    .smallpicdiva_, .smallpicdivb_
+    {
+        height: 30vh;
+        width: 100%;
+        margin-left: 5%;
+    }
+}
+
+
+@media screen and (max-width:375px)
+{
+    .sec2
+    {
+        height: 350vh;
+    }
+    .midsection
+    {
+        height: 100vh;
+    }
+    .left, .right
+    {
+        height: 50vh;
+    }
+
+    .othersection
+    {
+        height: 250vh;
+    }
+    .secondleft
+    {
+        height: 50vh;
+    }
+    .secondright
+    {
+        height: 100vh;
+        
+    }
+    .srright
+    {
+        height: 100vh;
+    }
+
+    .sr1top, .sr1bottom
+    {
+        height: 50vh;
+    }
+
+    .sec3
+    {
+        height: 490vh;
+    }
+    .grid
+    {
+        height: 490vh; 
+    } 
+    .sec4 
+    {
+        height: 100vh;
+    }
+    .sec4 > button 
+    {
+        margin-top: 5%;
+        width: 40%;
+        height: 7vh;
+        font-size: 100%;
+    }
+
+    .sec3text > h2, .sec4text > h2
+    {
+        font-size: 130%;
+    }
+    .sec3text > h4, .sec4text > h4
+    {
+        font-size: 100%;
+    }
+    #tp1
+    {
+        top: 8.6%
+    }
+    #tp1 h3 
+    {
+        font-size: 140%;
+    }
+    #tp2
+    {
+        top: 14.8%
+    }
+    #tp2 > h5
+    {
+        font-size: 100%;
+    }
+    #tp3
+    {
+        top: 25.4%;
+    }
+    #tp3 h4
+    {
+        font-size: 120%;
+    }
+    #tp3 h5
+    {
+        font-size: 100%;
+    }
+    #tp4
+    {
+        top: 31.5%;
+    }
+    #tp4 h3
+    {
+        font-size: 140%;
+    }
+}
+
+
+
+@media screen and (max-width:300px)
+{
+    .sec2
+    {
+        height: 300vh;
+    }
+    .midsection
+    {
+        height: 80vh;
+    }
+    .left, .right
+    {
+        height: 40vh;
+    }
+
+    .left .lefttext, .right .righttext
+    {
+        width: 80%;
+        height: 7vh;
+    }
+    .secondleft .slrighttext
+    {
+        width: 50%;
+        height: 7vh;
+    }
+    .sr1top .srrighttext, .sr1bottom .srrighttext
+    {
+        height: 7vh;
+        width: 70%;
+    }
+    .srright .srrighttext
+    {
+        height: 7vh;
+        width: 50%;
+    }
+    h3
+    {
+        font-size: 110%;
+    }
+    h5
+    {
+        font-size: 100%;
+    }
+
+    .othersection
+    {
+        height: 220vh;
+    }
+    .secondleft
+    {
+        height: 50vh;
+    }
+    .secondright
+    {
+        height: 90vh;
+        
+    }
+    .srright
+    {
+        height: 80vh;
+    }
+
+    .sr1top, .sr1bottom
+    {
+        height: 45vh;
+    }
+
+    .sec3
+    {
+        height: 395vh;
+    }
+    .grid
+    {
+        height: 395vh; 
+    } 
+    .sec4 
+    {
+        height: 90vh;
+    }
+    .sec4 > button 
+    {
+        margin-top: 5%;
+        width: 35%;
+        height: 7vh;
+        font-size: 80%;
+    }
+    .sec3text > h2, .sec4text > h2
+    {
+        font-size: 115%;
+    }
+    .sec3text > h4, .sec4text > h4
+    {
+        font-size: 80%;
+    }
+    #tp1 
+    {
+        top: 6%;
+    }
+}

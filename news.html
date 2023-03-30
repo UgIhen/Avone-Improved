@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="only screen and (max-device-width:4000px)" href="../Project2/css/largedev.css">
+    <link rel="stylesheet" media="only screen and (max-device-width:1400px)" href="../Project2/css/avone.css">
+    <link rel="stylesheet" href="../Project2/css/news.css">
+    <link rel="stylesheet" media="only screen and (max-device-width:1024px)" href="../Project2/css/1024.css">
+    <link rel="stylesheet" media="only screen and (max-device-width:768px)" href="../Project2/css/tablet.css">
+    <link rel="stylesheet" media="only screen and (max-device-width:480px)" href="../Project2/css/phone.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    
+    <title> Avone News </title>
+</head>
+<body>
+    <section class="sec1" id="sec11">
+        <header>
+            <menu class="menuopen" id="menu" onclick="off()">
+                <div class="user">
+                    <img src="../Project2/images/gal5_750x.jpg" alt="" />
+                    <h3>Welcome!</h3>
+                </div>
+                <ul class="menulist">
+                    <li class="list"> 
+                        <a href="index.html"> <span class="iconify iconifyx" data-icon="akar-icons:circle"></span> AVONE HOME </a>
+                    </li>
+                    <li class="list"> 
+                        <a href="news.html"> <span class="iconify iconifyx" data-icon="clarity:home-line"></span> NEWS </a>
+                    </li>
+                    <li class="list"> 
+                        <a href="shoppage.html"> <span class="iconify iconifyx" data-icon="ant-design:shopping-outlined"></span> SHOP</a> 
+                    </li> 
+                    <li class="list"> 
+                        <a href="features.html"> <span class="iconify iconifyx" data-icon="mdi:feature-search-outline"></span> FEATURES </a> 
+                    </li>
+                    <li class="list"> 
+                        <a href="" class="hide"> <span class="iconify iconifyx" data-icon="cil:heart"></span> WISHLIST </a> 
+                    </li>
+                    <li class="list"> 
+                        <a href="" class="hide"> <span class="iconify iconifyx" data-icon="bytesize:cart"></span> CART </a> 
+                    </li>
+                    <li class="list"> 
+                        <a href="login.html"> <span class="iconify iconifyx" data-icon="ic:outline-login"></span> LOGIN </a> 
+                    </li>
+                    <li class="list"> 
+                        <a href="signup.html" class="hide"> <span class="iconify iconifyx" data-icon="codicon:account"></span> SIGN-UP </a> 
+                    </li>
+                    <li class="list"> 
+                        <a href="about.html" class="hide"> <span class="iconify iconifyx" data-icon="ant-design:info-circle-outlined"></span> ABOUT US</a> 
+                    </li>
+                    <li class="list"> 
+                        <a href="contact.html" class="hide"> <span class="iconify iconifyx" data-icon="fluent:contact-card-24-regular"></span> CONTACT US </a> 
+                    </li>
+                </ul>
+                <div id="close" class="fas fa-times"></div>
+            </menu>
+            <div class="logoavone"> 
+                <a class="smavone" href="index.html"> AVONE </a> 
+                <form action="" class="searchf"> 
+                    <input type="search" placeholder="Browse Items" class="searchinp" name="" id="">
+                    <label for=""> <span class="iconify iconify1" data-icon="bx:search"></span> </label>
+                </form>
+                <ion-icon onclick="on()" class="xy" name="menu-outline"></ion-icon>
+            </div>
+            <nav class="nav1"> 
+                <div class="navleft">
+                    <a href="news.html"> NEWS </a>
+                    <a href="shoppage.html"> SHOP </a>
+                    <a href="features.html"> FEATURES </a>
+                    <a href="about.html"> ABOUT </a>
+                    <a href="contact.html"> CONTACT </a> 
+                </div>
+            </nav> 
+            <nav class="nav2"> 
+                <div class="navright">
+                    <div class="endicon" id="seicon">
+                        <span class="iconify iconify3" style="cursor: pointer;" data-icon="bx:search"></span> 
+                </div> 
+
+                <!-- The Modal -->
+                <div id="myModal" class="modal">
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <form action="" class="search"> 
+                            <input type="text" class="modalinput" placeholder="What are you looking for?" name="">
+                        </form>
+                    </div>
+                </div>
+                    <div class="endicon"> 
+                        <a href="login.html">
+                            <span class="iconify iconify2" style="cursor: pointer;" data-icon="codicon:account"></span> 
+                        </a>
+                    </div>
+                    <div class="endicon"> 
+                        <a href="wishlist.html">
+                            <span class="iconify iconify2" style="cursor: pointer;" data-icon="cil:heart"></span>
+                        </a>
+                    </div>
+                    <div class="endicon"> 
+                        <a href="cart.html">
+                            <span class="iconify iconify2" style="cursor: pointer;" data-icon="bytesize:cart"></span>
+                            <div class="whole-cart-window hide"></div>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+    </section>
+    <section class="sec2news"> 
+        <div class="randomdiv">
+            <div class="homnewspace">
+                <h3> <a href="index.html"> Home </a> </h3>
+                <h4> &nbsp; | </h4>
+                <h5> &nbsp; News </h5>
+            </div>
+        </div>
+        <div class="newspace">
+            <h3> News </h3>
+        </div>
+        <aside class="midsectionnews">
+            <div class="sma">
+            <div class="smallaside">
+                <div class="textxx">
+                    <h3> Recent Posts </h3>
+                </div>
+                <div class="smallpicdiv">
+                    <img src="../Project2/images/GroupSelfieCrop100.jpg" alt="">
+                    <div class="smallpictext">
+                        <a href=""> Ensuring Customer Success </a>
+                        <h3> April 25, 2020 </h3>
+                    </div>
+                </div>
+                <div class="smallpicdiv">
+                    <img src="../Project2/images/TrousersCrop100.jpg" alt="">
+                    <div class="smallpictext">
+                        <a href=""> We can make your business shine! </a>
+                        <h3> April 25, 2020 </h3>
+                    </div>
+                </div>
+                <div class="smallpicdiv">
+                    <img src="../Project2/images/3_WomanRedCrop100.jpg" alt="">
+                    <div class="smallpictext">
+                        <a href=""> Our development is your success </a>
+                        <h3> April 25, 2020 </h3>
+                    </div>
+                </div>
+                <div class="smallpicdiva_">
+                    <h4> Please upload banner from store admin blog pages </h4>
+                </div>
+                <div class="smallpicdivb_">
+                    <h3> Trending Now </h3>
+                    <h4> Please select collection from store admin blog pages </h4>
+                </div>
+            </div>
+            </div>
+            <div class="bia">
+            <div class="bigaside">
+                <div class="bigpicdiv">
+                    <img src="../Project2/images/LonePicGroupSelfie.jpg" alt="">
+                    <div class="bigpicdate">
+                        <a href=""> Ensuring Customer Success </a>
+                    </div>
+                    <div class="bigpicdate_">
+                        <h3> April 25, 2020 </h3>
+                        <div class="nada"> | </div>
+                        <h3> Posted by Sanjay Khunt </h3>
+                    </div>
+                    <h3> Es ist ein lang erwiesener Fakt, dass ein Leser vom Text abgelenkt wird, wenn er sich ein Layout ansieht. Der Punkt, 
+                        Lorem Ipsum zu nutzen, ist, dass es mehr oder weniger die normale Anordnung von Buchstaben darstellt und somit 
+                        nach lesbarer Sprache aussieht. Viele Desktop Publisher und Webeditoren nutzen mittlerweile Lorem Ipsum als den 
+                        Standardtext, auch die Suche im Internet nach "lorem ipsum" macht viele Webseiten sichtbar, wo diese noch...
+                    </h3>
+                    <button> READ MORE </button>
+                </div>
+                <div class="bigpicdiv">
+                    <img src="../Project2/images/Trousers 1024.jpg" alt="">
+                    <div class="bigpicdate">
+                        <a href=""> We can make your business shine! </a>
+                    </div>
+                    <div class="bigpicdate_">
+                        <h3> April 25, 2020 </h3>
+                        <div class="nada"> | </div>
+                        <h3> Posted by Sanjay Khunt </h3>
+                    </div>
+                    <h3> Es ist ein lang erwiesener Fakt, dass ein Leser vom Text abgelenkt wird, wenn er sich ein Layout ansieht. Der Punkt, 
+                        Lorem Ipsum zu nutzen, ist, dass es mehr oder weniger die normale Anordnung von Buchstaben darstellt und somit 
+                        nach lesbarer Sprache aussieht. Viele Desktop Publisher und Webeditoren nutzen mittlerweile Lorem Ipsum als den 
+                        Standardtext, auch die Suche im Internet nach "lorem ipsum" macht viele Webseiten sichtbar, wo diese noch...
+                    </h3>
+                    <button> READ MORE </button>
+                </div>
+                <div class="bigpicdiv">
+                    <img src="../Project2/images/3_WomanRed 1024.jpg" alt="">
+                    <div class="bigpicdate">
+                        <a href=""> Our development is your success </a>
+                    </div>
+                    <div class="bigpicdate_">
+                        <h3> April 25, 2020 </h3>
+                        <div class="nada"> | </div>
+                        <h3> Posted by Sanjay Khunt </h3>
+                    </div>
+                    <h3> There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some 
+                        form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a 
+                        passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. There are 
+                        many variations of passages of Lorem Ipsum available, but the majority...
+                    </h3>
+                    <button> READ MORE </button>
+                </div>
+            </div>
+            </div>
+        </aside>
+    </section>
+
+
+
+
+
+        <!-- FOOTER SECTION STARTS  -->
+        <footer class="footsiesection">
+            <div class="container">
+                <div class="footer-cta pt-5 pb-5">
+                    <div class="row ftctarow">
+                        <div class="footmidd1 ftscta">
+                            <div class="single-cta">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div class="cta-text">
+                                    <h4>Contact us</h4>
+                                    <span>55 Gallaxy Enque, 2568 steet, 23568 NY</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footmidd2">
+                            <div class="single-cta">
+                                <i class="fas fa-phone"></i>
+                                <div class="cta-text">
+                                    <h4> Phone: </h4>
+                                    <span>(440) 000 000 0000</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footmidd3">
+                            <div class="single-cta">
+                                <i class="far fa-envelope-open"></i>
+                                <div class="cta-text">
+                                    <h4>Email: </h4>
+                                    <span> sales@yousite.com </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-content pt-5 pb-5">
+                    <div class="row footsierow">
+                        <div class="footmidd1">
+                            <div class="footer-widget footsiewid3">
+                                <div class="footer-logo">
+                                    <a href="index.html"><img src="./images/B.png" class="img-fluid" alt="logo"></a>
+                                </div>
+                                <div class="remlogspa">
+                                    <div class="footer-text footsiewid">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, 
+                                            aliquid praesentium? Quam amet odio deserunt asperiores eos 
+                                            fuga est nulla, eum minus hic, distinctio ipsa alias ratione 
+                                            quod nihil magnam!
+                                        </p>
+                                    </div>
+                                    <div class="footer-social-icon">
+                                        <span class="remlogspba">Follow us &nbsp; &nbsp;
+                                        <a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                                        <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
+                                        <a href="#"><i class="fab fa-google-plus-g google-bg"></i></a>
+                                        <a href="#"><i class="fab fa-instagram instagram-bg"></i></a> </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="footmidd2">
+                            <div class="footer-widget footsiewid3">
+                                <div class="footer-logo ulpc">
+                                    <h3>Useful Links</h3>
+                                </div>
+                                <div class="footer-text">
+                                    <ul>
+                                        <li><a href="#"> Home </a></li>
+                                        <li><a href="#"> About us </a></li>
+                                        <li><a href="#"> Contact us </a></li>
+                                        <li><a href="#"> My Account </a></li>
+                                        <li><a href="#"> Orders and returns </a></li>
+                                        <li><a href="#"> Help </a></li>
+                                        <li><a href="#"> Our Services </a></li>
+                                        <li><a href="#"> Support Center </a></li>
+                                        <li><a href="#"> Terms and Conditions </a></li>
+                                        <li><a href="#"> Latest News </a></li>
+                                    </ul> 
+                                </div>
+                                <div class="footer-social-icon footsiewidd ulpc">
+                                    <div class=" footsiewiddd">
+                                        <a href="#Apple pay" class="payment-brands"><i class="fa-brands fa-apple-pay"></i></a> 
+                                        <a href="#Paypal" class="payment-brands"><i class="fa-brands fa-paypal"></i></a> 
+                                        <a href="#Google pay" class="payment-brands"><i class="fa-brands fa-google-pay"></i></a> 
+                                        <a href="#MasterCard" class="payment-brands"><i class="fa-brands fa-cc-mastercard"></i></a> 
+                                        <a href="#Visa" class="payment-brands"><i class="fa-brands fa-cc-visa"></i></a> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="copyright-area">
+                <div class="container">
+                    <div class="cpyrgtcontent">
+                    <div class="row cpyrgtrow">
+                        <div class="footmidd1">
+                            <div class="copyright-text">
+                                <p>Copyright &copy; 2022, All Right Reserved <a href="https://github.com/UgIhen"> Gee </a></p>
+                            </div>
+                        </div>
+                        <div class="footmidd3">
+                            <div class="footer-menu">
+                                <ul>
+                                    <li><a href="index.html"> &nbsp; &nbsp; Home</a></li>
+                                    <li><a href="news.html"> &nbsp; &nbsp; News </a></li>
+                                    <li><a href="shoppage.html"> &nbsp; &nbsp; Shop </a></li>
+                                    <li><a href="login.html"> &nbsp; &nbsp;Account </a></li>
+                                    <li><a href="contact.html"> &nbsp; &nbsp;Contact </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    
+        <!-- FOOTER ENDS  -->
+
+
+
+<!-- #GO TO TOP  -->
+<a href="#top" class="go-top" data-go-top>
+<ion-icon name="arrow-up"></ion-icon>
+</a>
+
+
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://kit.fontawesome.com/8477bea31f.js" crossorigin="anonymous"></script>
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+    
+
+    
+    <script src="../Project2/script/test.js"></script>
+    <script src="./script/script.js"></script>
+</body>
+</html>

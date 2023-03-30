@@ -1,0 +1,729 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1"><link rel='stylesheet' href='https://cdn.jsdelivr.net/gh/alphardex/aqua.css/dist/aqua.min.css'>
+    <link rel="stylesheet" media="only screen and (max-device-width:4000px)" href="../Project2/css/largedev.css">
+    <link rel="stylesheet" media="only screen and (max-device-width:1400px)" href="../Project2/css/features.css">
+    <link rel="stylesheet" media="only screen and (max-device-width:1400px)" href="../Project2/css/bootsrapfooter.css">
+    <link rel="stylesheet" media="only screen and (max-device-width:1400px)" href="../Project2/css/jandg.css">
+    <link rel="stylesheet" media="only screen and (max-device-width:1024px)" href="../Project2/css/1024.css">
+    <link rel="stylesheet" media="only screen and (max-device-width:768px)" href="../Project2/css/tablet.css">
+    <link rel="stylesheet" media="only screen and (max-device-width:480px)" href="../Project2/css/phone.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.3/assets/owl.carousel.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.3/assets/owl.theme.default.min.css'>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+    <title> Product Details 3 </title>
+  <style>
+      a
+      {
+          text-decoration: none;
+          color: rgb(31, 97, 83);
+          font-size: 75%;
+      }
+      #sync2 > .owl-stage-outer
+      {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+      }
+  </style>
+</head>
+<body>
+    <section class="sec1">
+        <header>
+            <menu class="menuopen" id="menu" onclick="off()">
+                <div class="user">
+                    <img src="../Project2/images/gal5_750x.jpg" alt="" />
+                    <h3>Welcome!</h3>
+                  </div>
+                  <ul class="menulist">
+                    <li class="list"> 
+                        <a href="index.html"> <span class="iconify iconifyx" data-icon="akar-icons:circle"></span> AVONE HEAD </a>
+                    </li>
+                    <li class="list"> 
+                        <a href="news.html"> <span class="iconify iconifyx" data-icon="clarity:home-line"></span> NEWS </a>
+                    </li>
+                    <li class="list"> 
+                        <a href="shoppage.html"> <span class="iconify iconifyx" data-icon="ant-design:shopping-outlined"></span> SHOP</a> 
+                    </li> 
+                    <li class="list"> 
+                        <a href="features.html"> <span class="iconify iconifyx" data-icon="mdi:feature-search-outline"></span> FEATURES </a> 
+                    </li>
+                    <li class="list"> 
+                        <a href="" class="hide"> <span class="iconify iconifyx" data-icon="cil:heart"></span> WISHLIST </a> 
+                    </li>
+                    <li class="list"> 
+                        <a href="" class="hide"> <span class="iconify iconifyx" data-icon="bytesize:cart"></span> CART </a> 
+                    </li>
+                    <li class="list"> 
+                        <a href="login.html"> <span class="iconify iconifyx" data-icon="ic:outline-login"></span> LOGIN </a> 
+                    </li>
+                    <li class="list"> 
+                        <a href="signup.html" class="hide"> <span class="iconify iconifyx" data-icon="codicon:account"></span> SIGN-UP </a> 
+                    </li>
+                    <li class="list"> 
+                        <a href="about.html" class="hide"> <span class="iconify iconifyx" data-icon="ant-design:info-circle-outlined"></span> ABOUT US</a> 
+                    </li>
+                    <li class="list"> 
+                        <a href="contact.html" class="hide"> <span class="iconify iconifyx" data-icon="fluent:contact-card-24-regular"></span> CONTACT US </a> 
+                    </li>
+                </ul>
+                <div id="close" class="fas fa-times"></div>
+            </menu>
+            <div class="logoavone"> 
+                <a class="smavone" href="index.html"> AVONE </a> 
+                <form action="" class="searchf"> 
+                    <input type="search" placeholder="Browse Items" name="" class="searchinp" id="">
+                    <label for=""> <span class="iconify iconify1" data-icon="bx:search"></span> </label>
+                </form>
+                <ion-icon onclick="on()" class="xy" name="menu-outline"></ion-icon>
+            </div>
+            <nav class="nav1"> 
+              <div class="navleft">
+                <a href="news.html"> NEWS </a>
+                <a href="shoppage.html"> SHOP </a>
+                <a href="features.html"> FEATURES </a>
+                <a href="about.html"> ABOUT </a>
+                <a href="contact.html"> CONTACT </a> 
+              </div>
+            </nav> 
+            <nav class="nav2"> 
+                <div class="navright">
+                  <div class="endicon" id="seicon">
+                    <span class="iconify iconify3" style="cursor: pointer;" data-icon="bx:search"></span> 
+              </div> 
+
+              <!-- The Modal -->
+              <div id="nvrmyModal" class="nvrmodal">
+                  <!-- Modal content -->
+                  <div class="nvrmodal-content">
+                      <span class="nvrclose">&times;</span>
+                      <form action="" class="nvrsearch"> 
+                          <input type="text" class="nvrmodalinput" placeholder="What are you looking for?" name="">
+                      </form>
+                  </div>
+              </div>
+                <div class="endicon"> 
+                    <a href="login.html">
+                        <span class="iconify iconify2" style="cursor: pointer;" data-icon="codicon:account"></span> 
+                    </a>
+                </div>
+                <div class="endicon"> 
+                    <a href="wishlist.html">
+                        <span class="iconify iconify2" style="cursor: pointer;" data-icon="cil:heart"></span>
+                    </a>
+                </div>
+                <div class="endicon"> 
+                    <a href="cart.html">
+                        <span class="iconify iconify2" style="cursor: pointer;" data-icon="bytesize:cart"></span>
+                        <div class="whole-cart-window hide"></div>
+                    </a>
+                </div>
+                </div>
+            </nav>
+        </header>
+    </section>
+
+    <section class="container sec2features my-8 pt-8">
+        <div class="row" >
+
+
+
+          <!-- J and G start --> 
+          
+          <div class="col-lg-12 col-md-12 col-12 d-flex flex-column align-items-center">
+            <div id="sync1" class="owl-carousel owl-theme">
+              <div class="item mag1" >
+                  <img src="../Project2/images4F/product-image-1775717805_750x.jpg" lt="">
+              </div>
+          </div>
+
+          
+          
+          <div id="sync2" class="owl-carousel owl-theme container d-flex flex-column align-items-center">
+              <div class=" item">
+                  <img src="../Project2/images4F/product-image-1775717805_750x.jpg" lt="">
+              </div>
+          </div>
+            
+          </div>
+          
+
+          <!-- J and G end --> 
+
+            <div class="col-lg-12 col-md-12 col-12 d-flex flex-column align-items-center" data-id="10"> 
+                <h4 class="pt-3 pb-3 mt-3 mb-3 col"> Oil Vinegar Butter Dishes </h4>
+                <div class=" tryag pt-3 pb-3 mt-3 row col-lg-7 col-md-12 col-sm-12 d-flex justify-content-center">
+                    <div class="col-4 d-flex flex-column align-items-center">
+                      <div class="d-flex flex-row">
+                        <span class="iconify" data-icon="ei:star"></span>
+                        <span class="iconify" data-icon="ei:star"></span>
+                        <span class="iconify" data-icon="ei:star"></span>
+                        <span class="iconify" data-icon="ei:star"></span>
+                        <span class="iconify" data-icon="ei:star"></span>
+                      </div>
+                      <a style="font-size: 100%;" href="#linkti"> No reviews </a>
+                    </div>
+                    <h6 class="mt-1 col-3 text-center"> In Stock </h6>
+                    <h6 class="mt-1 col-4 text-center"> SKU: 45683154-style-1-light-blue </h6>
+                </div>
+                <h3 class="col" style="font-weight: bold"> $20.00 </h3>
+                <div class="selnum text-center pt-3 pb-3 row col-lg-4 col-md-12 col-sm-12 d-flex justify-content-evenly">
+                    <input type="number" value="1" min="0" class="col-3 input-group mt-3 border border-secondary rounded">
+                </div> 
+                <div class="row d-flex checkers justify-content-between px-3 py-3 col-lg-11 col-md-12 col-sm-12">
+                    <button class="col-md-2 col-sm-12 checkag buy-btn btn-dark rounded"> 
+                      <i class="bi bi-suit-heart"></i> &nbsp;ADD TO WISHLIST 
+                    </button>
+                    <button class="col-md-3 col-sm-12 checkag buy-btn2 btn-dark rounded" data-bs-toggle="modal" data-bs-target="#myModal" > 
+                      <i class="bi bi-truck"></i> &nbsp;&nbsp; DELIVERIES / RETURNS 
+                    </button>
+                    <button class="col-md-2 col-sm-12 checkag buy-btn btn-dark rounded" data-bs-toggle="modal" data-bs-target="#exampleModal" data-whatever="@avone"> 
+                      <i class="bi bi-envelope"></i> &nbsp;&nbsp; ENQUIRIES
+                    </button>
+                    <button class="col-md-2 col-sm-12 checkag crbmod buy-btn btn-dark rounded" data-bs-toggle="modal" data-bs-target="#crbtd"> 
+                      <i class="bi bi-cart3"></i> &nbsp; ADD TO CART
+                    </button>
+                    <button class="col-md-2 col-sm-12 checkag buy-btn btn-dark rounded"> 
+                      <i class="bi bi-bag"> </i> &nbsp; BUY IT NOW
+                    </button>
+                </div> 
+
+
+                <!-- NODALS  -->
+                <!-- DELIVERIES AND RETURNS -->
+                <div class="modal" id="myModal">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                
+                      <!-- Modal Header -->
+                      <div class="modal-header">
+                        <h4 class="modal-title"> Deliveries and Returns Policy </h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                      </div>
+                
+                      <!-- Modal body -->
+                      <div class="modal-body">
+                        <h4> <b> Deliveries </b> </h4>
+                        <p> Dispatch: Within 24 Hours </p>
+                        <p> Free shipping across all products on a minimum purchase of $50. </p>
+                        <p> International delivery time - 7-10 business days</p> 
+                        <p> Cash on delivery might be available </p>
+                        <p> Easy 30 days returns and exchanges </p>
+
+                        <h4> <b> Returns </b> </h4>
+                        <p> If you do not like the product you can return it within 15 days - no questions asked. This excludes 
+                          bodysuits, swimwear and clearance sale items. We have an easy and hassle free return policy. 
+                          Please look at our Delivery & Returns section for further information. </p>
+                      </div>
+                
+                      <!-- Modal footer -->
+                      <div class="modal-footer">
+                        <button type="button" class="btn bttn-close" data-bs-dismiss="modal">Close</button>
+                      </div>
+                
+                    </div>
+                  </div>
+                </div>
+                
+
+                <!-- ENQUIRIES MODAL  -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <form class="form-check-block" oninput="rate.value=parseInt(Array.from(document.querySelectorAll(`input[name='rating']`)).filter(e=>e.checked)[0].value)">
+                          <div class="form-group">
+                            <label for="recipient-name" class="col-form-label">Recipient:</label>
+                            <input type="email" class="form-control" id="recipient-mail" name="" placeholder="Please enter your email">
+                            <h5 class="vine"> <span id="demose7"> </span> </h5>
+                          </div>
+                          <div class="form-group">
+                            <label for="message-text" class="col-form-label">Message:</label>
+                            <textarea class="form-control" id="message-text"></textarea>
+                            <h5 class="vine"> <span id="demose8"> </span> </h5>
+                          </div>
+                        </form>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn bttn-close" data-bs-dismiss="modal"> Close</button>
+                        <button type="button" class="btn btn-dark submitrev" id="jandgrev8" data-bs-dismiss="modal" onclick="submit2(lack)">Send</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+                <!-- REVIEWS MODAL  -->
+                <div class="modal fade" id="myyModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">New Review</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <form class="form-check-block" oninput="rate.value=parseInt(Array.from(document.querySelectorAll(`input[name='rating']`)).filter(e=>e.checked)[0].value)">
+
+                          <div class="rate">
+                            <input type="radio" id="5" value="5" name="rating" />
+                            <label for="5"></label>
+                            <input type="radio" id="4" value="4" name="rating" />
+                            <label for="4"></label>
+                            <input type="radio" id="3" value="3" name="rating" />
+                            <label for="3"></label>
+                            <input type="radio" id="2" value="2" name="rating" />
+                            <label for="2"></label>
+                            <input type="radio" id="1" value="1" name="rating" />
+                            <label for="1"></label>
+                          </div>
+
+                          <div class="form-group">
+                            <label for="recipient-name" class="labeltag mt-3 pt-3 col-form-label"> Review Title: </label>
+                            <input type="email" class="form-control" id="recipient-title" name="" placeholder="Please be brief with the subject">
+                            <h5 class="vine"> <span id="demose"> </span> </h5>
+                          </div>
+
+                          <div class="form-group">
+                            <label for="recipient-email" class="col-form-label"> Enter your Email Address: </label>
+                            <input type="email" class="form-control" id="recipient-email" name="" placeholder="Enter your email address">
+                            <h5 class="vine"> <span id="demose2"> </span> </h5>
+                          </div>
+                          
+                          <div class="form-group">
+                            <label for="recipient-rating" class="col-form-label"> Rating: </label>
+                            <output name="rate"></output>
+                          </div>
+
+                          <div class="form-group">
+                            <label for="message-text" class="col-form-label"> How do you feel about this product? </label>
+                            <textarea class="form-control" id="message"></textarea>
+                            <h5 class="vine"> <span id="demose3"> </span> </h5>
+                          </div>
+                        </form>
+
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn bttn-close" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-dark submitrev" id="jandgrev3" data-bs-dismiss="modal" onclick="submit(event)"> Submit Review </button>
+                      </div> 
+                    </div>
+                  </div>
+                </div>
+                
+
+                <!-- ADD TO CART MODAL  -->
+                <!-- DELIVERIES AND RETURNS -->
+                <div class="modal" id="myModal2" aria-labelledby="#crbtd" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                
+                      <!-- Modal Header -->
+                      <div class="modal-header">
+                        <h4 class="modal-title"> Shopping Cart </h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                      </div>
+                
+                      <!-- Modal body -->
+                      <div class="modal-body"></div>
+                
+                      <!-- Modal footer -->
+                      <div class="modal-footer">
+                        <button type="button" class="btn bttn-close" data-bs-dismiss="modal">Close</button>
+                      </div>
+                
+                    </div>
+                  </div>
+                </div>
+
+
+
+                <!-- Buton groups: Product Deets, Write Review,  -->
+
+                <div class="row col-lg-12 col-md-12 col-sm-12">
+                  <div class="col pt-3 pb-3 mt-3 mb-3">
+                    <button class="accordion btn-dark rounded pl-3">Product Details </button>
+                    <div class="panel">
+                      <span class="pl-3 description"> 
+                          <b> Brand Name: </b> &nbsp; XINCHEN
+                          <br> <b> Origin: </b>  &nbsp; CN(Origin)
+                          <br> <b> Material: </b> &nbsp; Ceramic
+                          <br> <b> Ceramic Type: </b> &nbsp; Pottery
+                          <br> <b> Technique: </b> &nbsp; On-glazed
+                          <br> <b> Style: </b> &nbsp; Europe
+                          <br> <b> Accessories: </b> &nbsp; With None
+                          <br> <b> Shape: </b> &nbsp; Handgrip
+                          <br> <b> Specification: </b> &nbsp; 1
+                          <br> <b> Certification: </b> &nbsp; CIQ
+                          <br> <b> Dinnerware Type: </b> &nbsp; Bowls
+                          <br> <b> Model Number: </b> &nbsp;  plate
+                          <br> <b> Feature: </b> &nbsp; Eco-Friendly
+                          <br> <b> Feature: </b> &nbsp; Stocked
+                          <br> <b> Feature1: </b> &nbsp; Creative Small Dish Ceram
+                          <br> <b> Feature2: </b> &nbsp; Bowl Vinegar Dishes Ketch
+                      </span>
+                    </div>
+                  </div>
+                  <div class="col pt-3 pb-3 mt-3 mb-3">
+                    <button class="accordion btn-dark rounded pl-3"> Review </button>
+                    <div class="panel-review">
+                      <span id="jandgrev4"> <h5 class="modalviewok pl-3"> No title yet</h5> </span>
+                      <span id="jandgrev5"> <h5 class="modalviewok2 pl-3"> No email yet </h5> </span>
+                      <span id="jandgrev6"> <h5 class="modalviewok3 pl-3"> No review yet </h5> </span>
+
+                      <button type="button" id="linkti" class="fullbutton btn-dark rounded pl-8" data-bs-toggle="modal" data-bs-target="#myyModal"> write a review </button>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row col-lg-12 col-md-12 col-sm-12">
+                  <div class="col pb-3 mb-3">
+                    <button class="accordion btn-dark rounded pl-3"> Shipping & Returns </button>
+                    <div class="panel">
+                      <span class="insidepanel pl-3"> 
+                        <h4>Returns Policy </h4>
+                        <h5 class="text-justify">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eros justo, 
+                            accumsan non dui sit amet. Phasellus semper volutpat mi sed imperdiet. 
+                            Ut odio lectus, vulputate non ex non, mattis sollicitudin purus. Mauris 
+                            consequat justo a enim interdum, in consequat dolor accumsan. Nulla 
+                            iaculis diam purus, ut vehicula leo efficitur at.
+                        </h5>
+                        
+                        
+                        <h5 class="text-justify">
+                            Interdum et malesuada fames ac ante ipsum primis in faucibus. In 
+                            blandit nunc enim, sit amet pharetra erat aliquet ac.
+                        </h5>
+                        
+                        <h4> Shipping </h4>
+                        <h5 class="text-justify">
+                            Pellentesque ultrices ut sem sit amet lacinia. Sed nisi dui, ultrices ut turpis 
+                            pulvinar. Sed fringilla ex eget lorem consectetur, consectetur blandit 
+                            lacus varius. Duis vel scelerisque elit, et vestibulum metus. Integer sit 
+                            amet tincidunt tortor. Ut lacinia ullamcorper massa, a fermentum arcu 
+                            vehicula ut. Ut efficitur faucibus dui Nullam tristique dolor eget turpis 
+                            consequat varius. Quisque a interdum augue. Nam ut nibh mauris.
+                        </h5>
+                    </span>
+                    </div>
+                  </div>
+
+                  <div class="col pb-3 mb-3">
+                    <button class="accordion btn-dark rounded pl-3"> Custom Tab</button>
+                    <div class="panel">
+                      <span class="pl-3"> You can set different tabs for each products. </span>
+                    </div>
+                  </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <section class="container sec2features my-8 py-8">
+      <div class="container row text-left">
+        <h4 class="col text-center"> Related Products </h4> 
+    </div>
+
+    <div class="row mx-auto">
+      <div class="product col pt-3 pb-3 mt-3 mb-3 text-center ">
+          <a href="./features.html" class="astyleshop">
+          <div class="imghov text-center"> 
+              <img class="img-fluid" 
+              src="../Project2/images4S/product-image-1620033604_550x.jpg" 
+              onmousemove="disp(this,'./images4S/product-image-1620033610_550x.jpg')" 
+              onmouseout="disp(this,'../Project2/images4S/product-image-1620033604_550x.jpg')"  
+              alt="">
+              <div class="txpft w-100 d-flex row align-items-center justify-content-around" id="tp3">
+                  <span class="iconify iconifyx col-2 rcer rounded-circle d-flex align-items-center" data-icon="cil:heart"></span>
+                  <span class="iconify iconifyx col-2 rcer rounded-circle d-flex align-items-center" data-icon="bytesize:cart"></span>
+                  <span class="iconify iconifyx col-2 rcer rounded-circle d-flex align-items-center" data-icon="bx:search"></span> 
+              </div>
+          </div>
+          <h6 class="mt-3"> Cylindrical Shape Flower Pot </h6> 
+          <h5> $20.00 </h5>
+          <div class="d-flex flex-row justify-content-center">
+              <span class="productstaricon iconify" data-icon="ei:star"></span>
+              <span class="productstaricon iconify" data-icon="ei:star"></span>
+              <span class="productstaricon iconify" data-icon="ei:star"></span>
+              <span class="productstaricon iconify" data-icon="ei:star"></span>
+              <span class="productstaricon iconify" data-icon="ei:star"></span>
+          </div>
+          </a>
+      </div>
+      <div class="product col pt-3 pb-3 mt-3 mb-3 text-center ">
+          <a href="./features2.html" class="astyleshop">
+          <div class="imghov text-center"> 
+              <img class="img-fluid" 
+              src="../Project2/images4S/product-image-1623980872.jpg" 
+              onmousemove="disp(this,'./images4S/product-image-1623980880.jpg')" 
+              onmouseout="disp(this,'../Project2/images4S/product-image-1623980872.jpg')" 
+              alt="">
+              <div class="txpft w-100 d-flex row align-items-center justify-content-around" id="tp3">
+                  <span class="iconify iconifyx col-2 rcer rounded-circle d-flex align-items-center" data-icon="cil:heart"></span>
+                  <span class="iconify iconifyx col-2 rcer rounded-circle d-flex align-items-center" data-icon="bytesize:cart"></span>
+                  <span class="iconify iconifyx col-2 rcer rounded-circle d-flex align-items-center" data-icon="bx:search"></span> 
+              </div>
+          </div>
+          <h6 class="mt-3"> Mug Cup for tea Coffee Cups </h6> 
+          <h5> $35.00 </h5>
+          <div class="d-flex flex-row justify-content-center">
+              <span class="productstaricon iconify" data-icon="ei:star"></span>
+              <span class="productstaricon iconify" data-icon="ei:star"></span>
+              <span class="productstaricon iconify" data-icon="ei:star"></span>
+              <span class="productstaricon iconify" data-icon="ei:star"></span>
+              <span class="productstaricon iconify" data-icon="ei:star"></span>
+          </div>
+          </a>
+      </div>
+      <div class="product col pt-3 pb-3 mt-3 mb-3 text-center ">
+          <a href="./features3.html" class="astyleshop">
+          <div class="imghov text-center">  
+              <img class="img-fluid" 
+              src="../Project2/images4S/product-image-1775717805_550x.jpg" 
+              onmousemove="disp(this,'../Project2/images4S/product-image-1775717805_550x.jpg')" 
+              onmouseout="disp(this,'../Project2/images4S/product-image-1775717805_550x.jpg')"
+              alt="">
+              <div class="txpft w-100 d-flex row align-items-center justify-content-around" id="tp3">
+                  <span class="iconify iconifyx col-2 rcer rounded-circle d-flex align-items-center" data-icon="cil:heart"></span>
+                  <span class="iconify iconifyx col-2 rcer rounded-circle d-flex align-items-center" data-icon="bytesize:cart"></span>
+                  <span class="iconify iconifyx col-2 rcer rounded-circle d-flex align-items-center" data-icon="bx:search"></span> 
+              </div>
+          </div>
+          <h6 class="mt-3"> Oil Vinegar Butter Dishes </h6> 
+          <h5> $20.00 </h5>
+          <div class="d-flex flex-row justify-content-center">
+              <span class="productstaricon iconify" data-icon="ei:star"></span>
+              <span class="productstaricon iconify" data-icon="ei:star"></span>
+              <span class="productstaricon iconify" data-icon="ei:star"></span>
+              <span class="productstaricon iconify" data-icon="ei:star"></span>
+              <span class="productstaricon iconify" data-icon="ei:star"></span>
+          </div>
+          </a>
+      </div>
+      <div class="product pt-3 pb-3 mt-3 mb-3 col text-center ">
+          <a href="./features4.html" class="astyleshop">
+          <div class="imghov text-center">
+              <img class="img-fluid" 
+              src="../Project2/images4S/product-image-1640395968_550x.jpg" 
+              onmousemove="disp(this,'../Project2/images4S/product-image-1640395979_550x.jpg')" 
+              onmouseout="disp(this,'../Project2/images4S/product-image-1640395968_550x.jpg')"
+              alt="">
+              <div class="txpft w-100 d-flex row align-items-center justify-content-around" id="tp3">
+                  <span class="iconify iconifyx col-2 rcer rounded-circle d-flex align-items-center" data-icon="cil:heart"></span>
+                  <span class="iconify iconifyx col-2 rcer rounded-circle d-flex align-items-center" data-icon="bytesize:cart"></span>
+                  <span class="iconify iconifyx col-2 rcer rounded-circle d-flex align-items-center" data-icon="bx:search"></span> 
+              </div>
+          </div>
+          <h6 class="mt-3"> Colourful Pot Clay Ceramic Pottery </h6> 
+          <h5> $20.00 </h5>
+          <div class="d-flex flex-row justify-content-center">
+              <span class="productstaricon iconify" data-icon="ei:star"></span>
+              <span class="productstaricon iconify" data-icon="ei:star"></span>
+              <span class="productstaricon iconify" data-icon="ei:star"></span>
+              <span class="productstaricon iconify" data-icon="ei:star"></span>
+              <span class="productstaricon iconify" data-icon="ei:star"></span>
+          </div>
+          </a>
+      </div>
+  </div>
+
+
+    </section>
+
+
+        <!-- FOOTER SECTION STARTS  -->
+        <footer class="footsiesection mt-10">
+          <div class="container">
+              <div class="footer-cta d-flex justify-content-center pt-5">
+                  <div class="row ftctarow w-100 d-flex justify-content-between align-items-center">
+                      <div class="footmidd1 col-xl-5 col-md-5">
+                          <div class="single-cta w-100">
+                              <i class="fas fa-map-marker-alt mt-0"></i>
+                              <div class="cta-text">
+                                  <h4>Contact us</h4>
+                                  <span>55 Gallaxy Enque, 2568 steet, 23568 NY</span>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="footmidd2 col-xl-3 col-md-3">
+                          <div class="single-cta w-100 phoneadj">
+                              <i class="fas fa-phone mt-0"></i>
+                              <div class="cta-text">
+                                  <h4> Phone: </h4>
+                                  <span>(440) 000 000 0000</span>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="footmidd3 col-xl-4 col-md-4">
+                          <div class="single-cta w-100 emailadj">
+                              <i class="far fa-envelope-open mt-0"></i>
+                              <div class="cta-text">
+                                  <h4>Email: </h4>
+                                  <span> sales@yousite.com </span>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="footer-content pt-3 pb-3">
+                  <div class="row w-100 d-flex justify-content-evenly ">
+                      <div class="footmidd1 d-flex col-xl-5 col-lg-5">
+                          <div class="footer-widget d-flex flex-column w-100 evony">
+                              <div class="footer-logo">
+                                <a href="index.html"><img src="./images/B.png" class="img-fluid" alt="logo"></a>
+                              </div>
+                              <div class="remlogspa">
+                                  <div class="footer-text d-flex justify-content-center w-80">
+                                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, 
+                                          aliquid praesentium? Quam amet odio deserunt asperiores eos 
+                                          fuga est nulla, eum minus hic, distinctio ipsa alias ratione 
+                                          quod nihil magnam!
+                                      </p>
+                                  </div>
+                                  <div class="footer-social-icon fsgfi remlogspb mt-3">
+                                      <span class="d-flex">Follow us &nbsp; &nbsp;
+                                      <a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                                      <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
+                                      <a href="#"><i class="fab fa-google-plus-g google-bg"></i></a>
+                                      <a href="#"><i class="fab fa-instagram instagram-bg"></i></a> </span>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+
+                      <div class="footmidd2 col-xl-6 col-lg-6">
+                          <div class="footer-widget container-fluid logosh d-flex flex-column">
+                              <div class="remlogspaaa">
+                              <div class="footer-logos container-fluid d-flex justify-content-start mb-5">
+                                  <h3>Useful Links</h3>
+                              </div>
+                              <div class="footer-text">
+                                  <ul>
+                                      <li class="pr-0"><a href="#"> Home </a></li>
+                                      <li><a href="#"> About us </a></li>
+                                      <li><a href="#"> Contact us </a></li>
+                                      <li><a href="#"> My Account </a></li>
+                                      <li><a href="#"> Orders and returns </a></li>
+                                      <li><a href="#"> Help </a></li>
+                                      <li><a href="#"> Our Services </a></li>
+                                      <li><a href="#"> Support Center </a></li>
+                                      <li><a href="#"> Terms and Conditions </a></li>
+                                      <li><a href="#"> Latest News </a></li>
+                                  </ul> 
+                              </div>
+                              </div>
+                              <div class=" d-flex justify-content-center mt-3 mr-0 fsigh">
+                                  <div class="d-flex justify-content-around footer-social-icon">
+                                      <a href="#Apple pay" class="payment-brands"><i class="fa-brands fa-apple-pay"></i></a> 
+                                      <a href="#Paypal" class="payment-brands"><i class="fa-brands fa-paypal"></i></a> 
+                                      <a href="#Google pay" class="payment-brands"><i class="fa-brands fa-google-pay"></i></a> 
+                                      <a href="#MasterCard" class="payment-brands"><i class="fa-brands fa-cc-mastercard"></i></a> 
+                                      <a href="#Visa" class="payment-brands"><i class="fa-brands fa-cc-visa"></i></a> 
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      
+                  </div>
+              </div>
+          </div>
+          <div class="copyright-area">
+              <div class="container">
+                  <div class="cpyrgtcontent">
+                  <div class="row cpyrgtrow d-flex justify-content-between">
+                      <div class="footmidd1 col text-lg-left">
+                          <div class="copyright-text">
+                            <p>Copyright &copy; 2022, All Right Reserved <a href="https://github.com/UgIhen"> Gee </a></p>
+                          </div>
+                      </div>
+                      <div class="col d-lg-block text-right">
+                          <div class="footer-menu">
+                              <ul class="d-float">
+                                  <li><a href="index.html"> &nbsp; &nbsp; Home</a></li>
+                                  <li><a href="news.html"> &nbsp; &nbsp; News </a></li>
+                                  <li><a href="shoppage.html"> &nbsp; &nbsp; Shop </a></li>
+                                  <li><a href="login.html"> &nbsp; &nbsp;Account </a></li>
+                                  <li><a href="contact.html"> &nbsp; &nbsp;Contact </a></li>
+                              </ul>
+                          </div>
+                      </div>
+                  </div>
+                  </div>
+              </div>
+          </div>
+      </footer>
+  
+      <!-- FOOTER ENDS  -->
+
+
+
+  <!-- #GO TO TOP  -->
+  <a href="#top" class="go-top" data-go-top>
+    <ion-icon name="arrow-up"></ion-icon>
+  </a>
+
+
+
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.3/owl.carousel.min.js'></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    
+
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://kit.fontawesome.com/8477bea31f.js" crossorigin="anonymous"></script>
+    
+
+    <script src="../Project2/script/jandg.js"></script>
+    <script src="./script/script.js"></script>
+    <script src="../Project2/script/btstrpjspages.js"></script>
+
+
+
+    <script>
+      var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+    </script>
+
+
+</body>
+</html>

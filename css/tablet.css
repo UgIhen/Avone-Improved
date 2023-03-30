@@ -1,0 +1,1535 @@
+a
+{
+    font-size: 75%;
+    text-decoration: none;
+    color: black;
+}
+
+
+header
+{
+    display: flex;
+    height: 8vh;
+}
+
+#menu 
+{
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(255, 255, 255);
+    z-index: 2;
+    cursor: pointer;
+}
+
+
+.menuopen .user{
+    text-align: center;
+    margin-top: 3rem auto;
+}
+
+.user
+{
+    height: 13rem;
+    margin-left: 5%;
+}
+.menuopen .user img{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    border:.5rem solid #9a8979;
+    object-fit: cover;
+    box-shadow: 5rem 2rem 0 -3em rgb(31, 97, 83),
+    -5rem -2rem 0 -3rem rgb(31, 97, 83);
+}
+.user > h3{
+    padding-top: .5rem;
+    color: black;
+    font-weight: 500;
+    font-size: 100%;
+    text-align: left;
+}
+
+.menuopen.active{
+    left: 0;
+    box-shadow: 0 0 0 100vw rgb(31, 97, 83);
+}
+
+.menuopen .menulist .list a:hover{
+    letter-spacing: .2rem;
+    color: rgb(31, 97, 83);
+}
+
+.menuopen #close{
+    position: absolute;
+    top:1rem; right:2rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+}
+
+.menuopen #close:hover{
+    color: rgb(31, 97, 83);
+}
+
+
+.menulist
+{
+    height: 50vh;
+}
+.menulist > .list > .submenu 
+{
+    height: 0vh;
+}
+.menulist 
+{
+    line-height: 8vh;
+    padding: 0;
+}
+.menulist > .list 
+{
+    border: 1px solid gray;
+    list-style-type: none;
+}
+
+.menulist >.list:hover
+{
+    background-color: #9a8979;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.logoavone
+{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: green; */
+}
+.smavone
+{
+    width: 20%;
+    /* background-color: aliceblue; */
+    text-align: center;
+}
+
+
+.iconify1
+{
+    margin: 0 0 -2.5% 0;
+}
+
+
+ion-icon
+{
+    text-align: right;
+    color: rgb(31, 97, 83);
+    /* background-color: antiquewhite; */
+}
+
+
+.xy
+{
+    width: 10%;
+    display: block;
+    order: 2;
+}
+
+.iconify3 
+{
+    display: none;
+}
+
+
+.nav1
+{
+    display: none;
+}
+
+.searchf
+{
+    width: 35%;
+    display: block;
+    margin-bottom: 0%;
+}
+
+.nav2
+{
+    width: 25%;
+    /* background-color: aqua; */
+    justify-content: left;
+}
+
+.navright
+{
+    width: 80%;
+    justify-content: space-evenly;
+}
+
+
+.sec2
+{
+    height: 100vh;
+}
+.midsection
+{
+    height: 50vh;
+}
+.left, .right 
+{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 50vh;
+}
+
+.lefttext, .righttext
+{
+    width: 55%;
+    height: 10vh;
+}
+
+
+h3
+{
+    font-size: 100%;
+}
+h5
+{
+    font-size: 90%;
+}
+
+.othersection 
+{
+    height: 50vh;
+}
+
+.secondleft, .secondright
+{
+    height: inherit;
+}
+
+.sr1, .sr2
+{
+    height: inherit;
+}
+.slrighttext
+{
+    width: 50%;
+    height: 8vh;
+}
+.srrighttext
+{
+    height: 7vh;
+    width: 50%;
+}
+
+#tp1
+{
+    top: 25.6%;
+    height: 7vh;
+}
+#tp1 h3 
+{
+    font-size: 140%;
+    font-weight: 700;
+}
+#tp2
+{
+    top: 11.1%;
+}
+#tp2 > h5
+{
+    font-size: 90%;
+    font-weight: 700;
+}
+#tp3
+{
+    top: 22.9%;
+}
+#tp3 h4
+{
+    font-size: 110%;
+    font-weight: 700;
+}
+#tp3 h5
+{
+    font-weight: 500;
+    font-size: 90%;
+}
+#tp4
+{
+    top: 29.3%;
+}
+#tp4 h3
+{
+    font-size: 140%;
+    font-weight: 700;
+}
+
+.sec3
+{
+    height: 120vh;
+}
+
+.sec4
+{
+    height: 120vh
+}
+
+.go-top ion-icon 
+{
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+
+
+
+
+
+   /*-----------------------------------*\
+           footer-section
+   \*-----------------------------------*/
+   
+   /* .footer-link-box{
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 1fr;
+}
+.footer-list{ max-width: 230px; }
+
+.footer-list li:first-child{margin-bottom: 10px;}
+
+.footer-link{
+    padding-block: 10px;
+    transition: var(--transition);  
+    font-size: 14px; 
+    font-weight: var(--fw-500);
+}
+.footer .contact-item span{ font-size: 14px;}
+
+.footer .contact-link{ font-size: 14px;}
+
+.footer .contact-link address{font-style: normal;}
+
+.footer-bottom{display: grid;
+grid-template-columns: 1fr;
+}
+
+.copyright {
+   display: block;
+   align-content: stretch;
+   align-items:unset;
+   margin: auto;
+   font-size: 14px;
+   padding-right: 10em;
+}
+
+.payment-icons{ order: 0; }
+
+.payment-brands{
+    display: block;
+    padding-left: 0.2em;
+    order: 1;
+}
+
+.container{
+    max-width: 768px;
+    margin-inline: auto;
+}
+
+.h2 {
+    --fs-1:35px;
+}
+
+.h3 {--fs-4: 20px; } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* NEWS */
+.sec2news
+{
+    height: 280vh;
+}
+.randomdiv
+{
+    height: 5vh;
+}
+.homnewspace
+{
+    /* background-color: grey; */
+    width: 98%;
+}
+.homnewspace > h3
+{
+    font-weight: 400;
+}
+.homnewspace > h4
+{
+    font-weight: 400;
+    font-size: small;
+}
+
+
+.midsectionnews
+{
+    height: 250vh;
+    /* justify-content: space-between; */
+}
+.sma
+{
+    width: 24%;
+}
+.smallaside
+{
+    /* background-color: brown; */
+    width: 97%;
+}
+.textxx
+{
+    width: 100%;
+    margin-bottom: -0.5%;
+    margin-top: 2%;
+    margin-left: -3%;
+}
+
+.smallpicdiv
+{
+    width: 99%;
+}
+.smallpictext
+{
+    margin-left: 5%;
+}
+.smallpicdiv > img
+{
+    height: 6.8vh;
+    width: 30%;
+}
+.smallpicdiva_, .smallpicdivb_
+{
+    width: 95%;
+    /* height: 16vh; */
+    /* background-color: red; */
+    margin-left: 0%;
+}
+.smallpicdiva_
+{
+    margin-bottom: 0%;
+    margin-top: 5%; 
+}
+.smallpicdivb_ > h3
+{
+    margin-bottom: 1%;
+    margin-top: -15%;
+}
+.smallpicdivb_ > h4
+{
+    margin-top: 1%;
+}
+
+
+
+.bia
+{
+    width: 74%;
+    display: flex;
+    height: inherit;
+    flex-direction: column;
+    align-items: flex-end;
+    /* OR height: 285vh; */
+    /* background-color: blueviolet; */
+}
+.bigaside
+{
+    width: 98%;
+}
+.bigpicdiv
+{
+    width: 100%;
+}
+.bigpicdiv > img
+{
+    height: 40vh;
+    width: 98%;
+}
+.bigpicdate > h3, .bigpicdate_ > h3
+{
+    margin-bottom: 2%;
+}
+.bigpicdiv > h3
+{
+    margin-right: 3%;
+}
+button
+{
+    width: 22%;
+    margin: 1% 0 7% 0;
+}
+
+
+
+
+
+@media screen and (max-width:766px)
+{
+
+    .sec2
+    {
+        height: 90vh;
+    }
+
+    .midsection
+    {
+        height: 45vh;
+    }
+
+    .left, .right
+    {
+        height: 45vh;
+    }
+
+    .othersection
+    {
+        height: 45vh;
+    }
+
+    .secondleft, .secondright, .srright
+    {
+        height: 45vh;
+    }
+
+    .secondleft .slrighttext, .sr1top .srrighttext, .sr1bottom .srrighttext, .srright .srrighttext
+    {
+        height: 5.5vh;
+    }
+
+    .left .lefttext, .right .righttext
+    {
+        width: 75%;
+        height: 9vh;
+        margin-left: -8%;
+    }
+    h3
+    {
+        font-size: 135%;
+    }
+    h5
+    {
+        font-size: 120%;
+    }
+    .sec3
+    {
+        height: 122vh;
+    }
+
+    .sec4
+    {
+        height: 120vh;
+    }
+
+
+    #tp1
+    {
+        top: 25.8%;
+        height: 7vh;
+    }
+    #tp1 h3 
+    {
+        font-size: 140%;
+        font-weight: 700;
+    }
+    #tp2
+    {
+        top: 11.5%;
+    }
+    #tp2 > h5
+    {
+        font-size: 95%;
+        font-weight: 700;
+    }
+    #tp3
+    {
+        top: 23.4%;
+    }
+    #tp3 h4
+    {
+        font-size: 120%;
+        font-weight: 700;
+    }
+    #tp3 h5
+    {
+        font-weight: 500;
+        font-size: 100%;
+    }
+    #tp4
+    {
+        top: 29.8%;
+    }
+    #tp4 h3
+    {
+        font-size: 140%;
+        font-weight: 700;
+    }
+    
+    .sec2news
+    {
+        height: 370vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .newspace
+    {
+        height: 8vh;
+    }
+    .midsectionnews
+    {
+        flex-direction: column-reverse;
+        height: 340vh;
+    }
+
+
+    .bia
+    {
+        width: 100%;
+        height: 300vh;
+        align-items: center;
+    }
+    .bigaside
+    {
+        width: 100%;
+        align-items: center;
+    }
+    .bigpicdiv
+    {
+        width: 97%;
+    }
+    .bigpicdiv > img
+    {
+        height: 52vh;
+        width: 100%;
+    }
+    .bigpicdiv > h3
+    {
+        margin-right: 1%;
+    }
+    button
+    {
+        width: 16.5%;
+        margin: 0 0 7% 0;
+    }
+
+
+    .sma
+    {
+        width: 100%;
+        height: 65vh;
+        align-items: flex-start;
+    }
+    .smallaside
+    {
+        width: 85%;
+        height: 76vh;
+        /* background-color: brown; */
+    }
+    .textxx
+    {
+        width: 100%;
+        height: 4vh;
+        margin: 0%;
+    }
+    .textxx > h3
+    {
+        margin-left: 1.5%;
+    }
+    .smallpicdiv
+    {
+        width: 97%;
+        height: 24vh;
+        /* background-color: blue; */
+        justify-content: space-between;
+    }
+    .smallpicdiv > img
+    {
+        height: 13.5vh;
+        width: 16%;
+    }
+    .smallpictext
+    {
+        height: 5vh;
+    }
+    .smallpicdiva_, .smallpicdivb_
+    {
+        margin: 0%;
+        margin-left: -2%;
+        /* height: 10vh; */
+    }
+    .smallpicdiva_
+    {
+        margin-top: -2%;
+    }
+    .smallpicdivb_ > h3
+    {
+        margin-bottom: 0%;
+        margin-top: -8%;
+        font-size: 105%;
+    }
+ 
+}
+
+@media screen and (max-width:736px)
+{
+    .sec2news
+    {
+        height: 350vh;
+    }
+    .midsectionnews
+    {
+        height: 320vh;
+    }
+    .bia
+    {
+        height: 280vh;
+    }
+    .bigpicdiv
+    {
+        height: 280vh;
+    }
+    .bigpicdiv > img
+    {
+        height: 52.5vh;
+    }
+    .bigpicdiv > h3
+    {
+        margin-right: 1.5%;
+    }
+    button
+    {
+        margin-bottom: 3%;
+    }
+    .sma
+    {
+        height: 53vh;
+    }
+    .smallpicdiv > img
+    {
+        width: 16.2%;
+    }
+}
+
+@media screen and (max-width:704px) and (max-height:538px)
+{
+    .sec2news
+    {
+        height: 480vh;
+    }
+    .midsectionnews
+    {
+        height: 460vh;
+    }
+    .bia
+    {
+        height: 360vh;
+    }
+    .bigpicdiv
+    {
+        height: 360vh;
+    }
+    .bigpicdiv > img
+    {
+        height: 70vh;
+    }
+    button
+    {
+        height: 6.8vh;
+        width: 18%;
+    }
+    .sma
+    {
+        height: 100vh;
+    }
+    .smallaside
+    {
+        height: 98vh;
+    }
+    .smallpicdiv
+    {
+        height: inherit;
+    }
+    .smallpicdiv > img
+    {
+        width: 16.2%;
+        height: 18vh;
+    }
+    .smallpicdiva_, .smallpicdivb_
+    {
+        margin-top: 3%;
+    }
+    .smallpicdivb_ > h3
+    {
+        margin-bottom: 0%;
+        margin-top: -4%;
+    }
+}
+
+@media screen and (max-width:704px)
+{
+    .sec2news
+    {
+        height: 360vh;
+    }
+    .newspace
+    {
+        height: 7vh;
+    }
+    .newspace > h3
+    {
+        margin-bottom: -1%;
+    }
+    .midsectionnews
+    {
+        height: 340vh;
+    }
+    .bia
+    {
+        height: 270vh;
+        margin-bottom: -5%;
+    }
+    .bigaside
+    {
+        height: inherit;
+    }
+    .bigpicdiv > img
+    {
+        height: 50vh;
+    }
+    button
+    {
+        width: 18%;
+        height: 5vh;
+    }
+    .sma
+    {
+        height: 70vh;
+    }
+    .smallaside
+    {
+        height: 70vh;
+    }
+    .smallpicdiv
+    {
+        height: 40vh;
+    }
+    .smallpicdiv > img
+    {
+        height: 12.8vh;
+        width: 17%;
+    }
+    .smallpicdiva_, .smallpicdivb_
+    {
+        height: 27vh;
+    }
+}
+
+
+@media screen and (max-width:672px)
+{
+    .sec2news
+    {
+        height: 330vh;
+    }
+    .randomdiv
+    {
+        height: 5vh;
+    }
+    .newspace
+    {
+        height: 8vh;
+    }
+    .newspace > h3
+    {
+        margin-bottom: 0%;
+    }
+    .midsectionnews
+    {
+        height: 320vh;
+        justify-content: space-between;
+    }
+    .bia
+    {
+        height: 248vh;
+        margin-bottom: -5%;
+    }
+    .bigaside
+    {
+        height: inherit;
+    }
+    .bigpicdiv > img
+    {
+        height: 48vh;
+    }
+    .sma
+    {
+        height: 58vh;
+    }
+    .smallpicdiv > img
+    {
+        height: 12.3vh;
+        width: 17%;
+    }
+}
+
+@media screen and (max-width:640px)
+{
+    .sec2news
+    {
+        height: 325vh;
+    }
+    .newspace > h3
+    {
+        margin-bottom: 0%;
+    }
+    .midsectionnews
+    {
+        height: 310vh;
+        justify-content: space-between;
+    }
+    .bia
+    {
+        height: 238vh;
+        margin-bottom: -5%;
+    }
+    .bigpicdiv > img
+    {
+        height: 45.3vh;
+    }
+    button
+    {
+        width: 19.5%;
+        height: 4.5vh;
+    }
+    .sma
+    {
+        height: 60vh;
+    }
+    .smallpicdiv > img
+    {
+        height: 13vh;
+        width: 19%;
+    }
+}
+
+
+
+
+
+@media screen and (max-width:608px)
+{
+
+    .sec2
+    {
+        height: 402vh;
+    }
+    .midsection
+    {
+        height: 150vh;
+        flex-direction: column;
+    }
+    .left, .right 
+    {
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 75vh;
+    }
+    .left > img, .right > img
+    {
+        width: 100%;
+        max-width: fit-content;
+        height: 100%;
+        max-height: fit-content;
+        object-fit: cover;
+    }
+
+    .left .lefttext, .right .righttext
+    {
+        width: 70%;
+        height: 10vh;
+    }
+
+    h3
+    {
+        font-size: 150%;
+    }
+    h5
+    {
+        font-size: 130%;
+    }
+
+    .othersection 
+    {
+        height: 252vh;
+        flex-direction: column;
+    }
+
+
+    .secondleft
+    {
+        flex-direction: row;
+        width: 100%;
+        height: 82vh;
+    }
+    .secondleft > img
+    {
+        max-height: fit-content;
+        max-width: 100%;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transform: scale(1.0);
+    }
+    .secondright
+    {
+        flex-direction: row;
+        height: 40vh;
+        width: 100%;
+    }
+    .srright
+    {
+        height: 130vh;
+        width: 100%;
+        /* background-color: purple; */
+    }
+
+    .sr1top, .sr1bottom
+    {
+        width: 50%;
+    }
+
+    .secondleft > img, .sr1top > img, .sr1bottom > img
+    {
+        max-height: fit-content;
+        max-width: 100%;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transform: scale(1.0);
+    }
+
+    .srright > img
+    {
+        max-height: fit-content;
+        max-width: 100%;
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        transform: scale(1.0);
+    }
+
+    .secondleft .slrighttext
+    {
+        width: 50%;
+        height: 10vh;
+    }
+
+    .sr1top .srrighttext, .sr1bottom .srrighttext
+    {
+        width: 65%;
+        height: 8vh;
+        left: 10%;
+    }
+
+    .srright .srrighttext
+    {
+        height: 9vh;
+        width: 50%;
+    } 
+    .sec3
+    {
+        height: 790vh;
+        background-color: #9a8979;
+    }
+    .grid
+    {
+        display: block;
+        gap: 30px;
+        margin-bottom: 50px;
+        height: 790vh; 
+
+    }
+    .sec4 
+    {
+        height: 120vh;
+    }
+
+
+
+
+
+
+    .sec2news
+    {
+        height: 325vh;
+    }
+    .midsectionnews
+    {
+        height: 315vh;
+    }
+    .bigpicdiv > img
+    {
+        height: 43.3vh;
+    }
+    .sma
+    {
+        height: 71vh;
+    }
+    .smallaside
+    {
+        height: inherit;
+    }
+    .smallpicdiv
+    {
+        height: 41vh;
+    }
+    .smallpicdiv > img
+    {
+        height: 13vh;
+        width: 19.5%;
+    }
+}
+
+@media screen and (max-width:600px)
+{
+
+    .sec3
+    {
+        height: 780vh;
+        background-color: #9a8979;
+    }
+    .grid
+    {
+        height: 780vh; 
+    } 
+
+    #tp1
+    {
+        top: 9.4%;
+        height: 10vh;
+        width: 100%;
+    }
+    #tp1 h3 
+    {
+        font-size: 180%;
+        font-weight: 700;
+    }
+    #tp2
+    {
+        top: 15.65%;
+        width: 100%;
+        height: 10vh;
+    }
+    #tp2 > h5
+    {
+        font-size: 120%;
+        font-weight: 700;
+    }
+    #tp3
+    {
+        top: 26.3%;
+        width: 100%;
+        height: 10vh;
+    }
+    #tp3 h4
+    {
+        font-size: 120%;
+        font-weight: 700;
+    }
+    #tp3 h5
+    {
+        font-weight: 500;
+        font-size: 100%;
+    }
+    #tp4
+    {
+        top: 32.4%;
+        width: 100%;
+        height: 10vh;
+    }
+    #tp4 h3
+    {
+        font-size: 180%;
+        font-weight: 700;
+    }
+
+    #zomp1
+    {
+        top: 0%;
+        left: 3%;
+    }
+
+    #zomp2
+    {
+        top: 10.8%;
+        left: 3%;
+    }
+    #zomp3
+    {
+        top: 17%;
+        left: 3%;
+    }
+    #zomp4
+    {
+        top: 29.8%;
+        left: 3%;
+    }
+    #zomp5
+    {
+        top: 37.4%;
+        left: 3%;
+    }
+    #zomp6
+    {
+        top: 44.4%;
+        left: 3%;
+    }
+    #zomp7
+    {
+        top: 51%;
+        left: 3%;
+    }
+    #zomp8
+    {
+        top: 62.1%;
+        left: 3%;
+    }
+    #zomp9
+    {
+        top: 70.9%;
+        left: 3%;
+    }
+    #zomp10
+    {
+        top: 82%;
+        left: 3%;
+    }
+    #zomp11
+    {
+        top: 90.9%;
+        left: 3%;
+    }
+
+    .sec4 
+    {
+        height: 120vh;
+    }
+    .sec4 > button 
+    {
+        width: 30%;
+        height: 7vh;
+        font-size: 120%;
+        font-weight: 400;
+    }
+}
+
+@media screen and (max-width:576px)
+{
+
+    .sec2
+    {
+        height: 544vh;
+    }
+    .midsection
+    {
+        height: 150vh;
+    }
+    .left, .right 
+    {
+        height: 75vh;
+    }
+    .left .lefttext, .right .righttext
+    {
+        width: 70%;
+        height: 10vh;
+    }
+
+    h3
+    {
+        font-size: 150%;
+    }
+    h5
+    {
+        font-size: 130%;
+    }
+
+    .othersection 
+    {
+        height: 394vh;
+    }
+    
+    .secondleft
+    {
+        height: 82vh;
+    }
+    .secondright
+    {
+        flex-direction: column;
+        height: 152vh;
+        width: 100%;
+    }
+    .secondleft > img, .sr1top > img, .sr1bottom > img, .srright > img
+    {
+        max-height: fit-content;
+        max-width: 100%;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transform: scale(1.0);
+    }
+    .sr1top, .sr1bottom
+    {
+        width: 100%;
+    }
+    .srright
+    {
+        height: 160vh;
+    } 
+    .sec3
+    {
+        height: 745vh;
+    }
+
+    
+
+    .grid
+    {
+        height: 745vh; 
+
+    }
+    .sec4 
+    {
+        height: 110vh;
+    }
+
+
+
+
+    .sec2news
+    {
+        height: 320vh;
+    }
+    .midsectionnews
+    {
+        height: 308vh;
+    }
+    .bia
+    {
+        height: 238vh;
+        margin-bottom: -5%;
+    }
+    .bigpicdiv > img
+    {
+        height: 41vh;
+    }
+    .sma
+    {
+        height: 70vh;
+    }
+    .smallaside
+    {
+        height: inherit;
+    }
+    .smallpicdiv
+    {
+        height: 40vh;
+    }
+    .smallpicdiv > img
+    {
+        height: 12.5vh;
+        width: 20.5%;
+    }
+}
+
+
+
+@media screen and (max-width:544px)
+{
+
+    .sec2
+    {
+        height: 482vh;
+    }
+    .midsection
+    {
+        height: 134vh;
+    }
+    .left, .right
+    {
+        height: 67vh;
+    }
+
+    h3
+    {
+        font-size: 150%;
+    }
+    h5
+    {
+        font-size: 120%;
+    }
+
+    .othersection
+    {
+        height: 348vh;
+    }
+    .secondleft
+    {
+        height: 68vh;
+    }
+    .secondright
+    {
+        height: 130vh;
+        
+    }
+    .srright
+    {
+        height: 150vh;
+    }
+
+    .sr1top, .sr1bottom
+    {
+        height: 65vh;
+    }
+    .sr1top .srrighttext, .sr1bottom .srrighttext
+    {
+        width: 60%;
+        height: 10vh;
+    }
+
+    .sec3
+    {
+        height: 710vh;
+    }
+    .grid
+    {
+        height: 710vh; 
+    } 
+
+    .bigpicdiv > img
+    {
+        height: 38.8vh;
+    }
+    .sec4 > button
+    {
+        width: 30%;
+    }
+    .sma
+    {
+        height: 70vh;
+    }
+    .smallaside
+    {
+        height: inherit;
+    }
+    .smallpicdiv
+    {
+        height: 40vh;
+    }
+    .smallpicdiv > img
+    {
+        height: 13.5vh;
+        width: 23%;
+    }
+}
+
+@media screen and (max-width:512px)
+{
+
+    .sec3
+    {
+        height: 670vh;
+    }
+    .grid
+    {
+        height: 670vh; 
+    } 
+
+
+
+
+    .sec2news
+    {
+        height: 305vh;
+    }
+    .midsectionnews
+    {
+        height: 295vh;
+    }
+    .bia
+    {
+        height: 218vh;
+        margin-bottom: -5%;
+    }
+    .bigpicdiv > img
+    {
+        height: 36vh;
+    }
+    button
+    {
+        width: 25%;
+    }
+    .sma
+    {
+        height: 70vh;
+    }
+    .smallpicdiv > img
+    {
+        height: 12.5vh;
+        width: 23%;
+    }
+}
+
+
+
